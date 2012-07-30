@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<new>  
+    <dokumentInfo>
+        <dokumentURL>http://www.bundestag.de/xml/aktuell/index.xml</dokumentURL>
+        <dokumentStand>29.12.2011</dokumentStand>
+
+        <dokumentDebattenStatus>1</dokumentDebattenStatus>
+        <dokumentAusschuesseStatus>1</dokumentAusschuesseStatus>
+    </dokumentInfo>
+<newslist>
+<news>
+    <startteaser>1</startteaser>
+    <status>1</status>
+    <date></date>
+
+    <title><![CDATA[15. Bundesversammlung]]></title>
+    <teaser><![CDATA[Im Berliner Reichstagsgebäude hat um 12 Uhr die 15. Bundesversammlung zur Wahl eines neuen Staatsoberhauptes der Bundesrepublik Deutschland begonnen. Die Wahl war nach dem Rücktritt von  ... ]]></teaser>
+
+    <imageURL>http://www.bundestag.de/dokumente/textarchiv/2012/38228038_kw11_bv_sonntag/plenum_320.png</imageURL>
+    <imageGrossURL>http://www.bundestag.de/dokumente/textarchiv/2012/38228038_kw11_bv_sonntag/plenum_gross.png</imageGrossURL>
+    <imageCopyright>DBT/Studio Kohlmeier</imageCopyright>
+    
+
+    <detailsXML>http://www.bundestag.de/xml/aktuell/38228038_kw11_bv_sonntag.xml</detailsXML>
+
+            <lastChanged>18.03.2012 12:30</lastChanged>
+            <changedDateTime>18.03.2012 12:30</changedDateTime>
+</news>
+            <news>
+            <startteaser>0</startteaser>
+
+            <date>07.03.2012</date>
+            <title><![CDATA[Kraftakt Bundesversammlung]]></title>
+            <teaser><![CDATA[Der Bundestag ist am heutigen Sonntag, dem 18. März, Gastgeber der Bundesversammlung und für deren  ... ]]></teaser>
+            
+                <imageURL>http://www.bundestag.de/dokumente/textarchiv/2012/38095147_kw11_bundesversammlung/stuehle_m.png</imageURL>
+                <imageGrossURL>http://www.bundestag.de/dokumente/textarchiv/2012/38095147_kw11_bundesversammlung/stuehle_gross.png</imageGrossURL>
+                <imageCopyright>DBT/Nowak-Katz</imageCopyright>
+                <imageChangedDateTime>09.03.2012 10:33</imageChangedDateTime>
+
+            
+            
+            <detailsXML>http://www.bundestag.de/xml/aktuell/38095147_kw11_bundesversammlung.xml</detailsXML>
+            <lastChanged>18.03.2012 09:11</lastChanged>
+            <changedDateTime>18.03.2012 09:11</changedDateTime>
+            
+            
+            
+            </news>
+
+
+
+
+
+
+            
+            <news>
+            <startteaser>0</startteaser>
+            <date>14.03.2012</date>
+            <title><![CDATA[Nächste Woche im Bundestag]]></title>
+            <teaser><![CDATA[Der Bundestag befasst sich vom 21. bis 23. März unter anderem mit der Entscheidungslösung im  ... ]]></teaser>
+            
+                <imageURL>http://www.bundestag.de/dokumente/textarchiv/2012/38188080_kw13_vorschau/reichstag_m.jpg</imageURL>
+                <imageGrossURL>http://www.bundestag.de/dokumente/textarchiv/2012/38188080_kw13_vorschau/reichstag_gross.jpg</imageGrossURL>
+
+                <imageCopyright>DBT/Marc-Steffen Unger</imageCopyright>
+                <imageChangedDateTime>16.03.2012 14:05</imageChangedDateTime>
+            
+            
+            <detailsXML>http://www.bundestag.de/xml/aktuell/38188080_kw13_vorschau.xml</detailsXML>
+            <lastChanged>16.03.2012 14:06</lastChanged>
+            <changedDateTime>16.03.2012 14:06</changedDateTime>
+            
+            
+            
+            </news>
+
+
+
+
+
+
+            <news-list>
+            
+            <startteaser>0</startteaser>
+            <date></date>
+            <title><![CDATA[Themen in den Ausschüssen]]></title>
+            <teaser><![CDATA[Öffentliche Ausschusssitzungen vom 19. bis 28. März]]></teaser>
+
+            
+                <imageURL>http://www.bundestag.de/dokumente/textarchiv/2012/37826056_kw09_pa_arbeit_soziales/blind_m.jpg</imageURL>
+                <imageGrossURL>http://www.bundestag.de/dokumente/textarchiv/2012/37826056_kw09_pa_arbeit_soziales/blind_gross.jpg</imageGrossURL>
+                <imageCopyright>picture alliance/JOKER</imageCopyright>
+                <imageChangedDateTime>16.02.2012 15:46</imageChangedDateTime>
+            
+            
+            <detailsXML>http://www.bundestag.de/xml/aktuell/ausschuesse/index.xml</detailsXML>
+            <lastChanged>16.03.2012 14:35</lastChanged>
+
+            <changedDateTime>16.03.2012 14:35</changedDateTime>
+            
+            
+            </news-list>
+            
+            
+
+
+
+
+
+            <news-list>
+            
+            <startteaser>0</startteaser>
+            <date></date>
+            <title><![CDATA[Debatten der nächsten Woche]]></title>
+            <teaser><![CDATA[Debatten vom 21. bis 23. März]]></teaser>
+            
+                <imageURL>http://www.bundestag.de/dokumente/textarchiv/2012/38177233_kw12_sp_verbraucherpolitik/supermarkt_m.jpg</imageURL>
+
+                <imageGrossURL>http://www.bundestag.de/dokumente/textarchiv/2012/38177233_kw12_sp_verbraucherpolitik/supermarkt_gross.jpg</imageGrossURL>
+                <imageCopyright>dpa-Report</imageCopyright>
+                <imageChangedDateTime>13.03.2012 15:24</imageChangedDateTime>
+            
+            
+            <detailsXML>http://www.bundestag.de/xml/aktuell/debatten/index.xml</detailsXML>
+            <lastChanged>14.03.2012 15:14</lastChanged>
+            <changedDateTime>14.03.2012 15:14</changedDateTime>
+
+            
+            
+            </news-list>
+            
+            
+
+
+
+
+
+            
+            <news>
+            <startteaser>0</startteaser>
+            <date>15.03.2012</date>
+            <title><![CDATA[Zugriff auf alle Akten]]></title>
+            <teaser><![CDATA[Hartfrid Wolff (Foto) fordert Schutzlücken zu schließen, die Taten wie die der Terrorgruppe  ... ]]></teaser>
+            
+                <imageURL>http://www.bundestag.de/dokumente/textarchiv/2012/38205173_kw11_nsu_wolff/foto_m.jpg</imageURL>
+
+                <imageGrossURL>http://www.bundestag.de/dokumente/textarchiv/2012/38205173_kw11_nsu_wolff/foto_gross.jpg</imageGrossURL>
+                <imageCopyright>DBT/Zippel</imageCopyright>
+                <imageChangedDateTime>15.03.2012 10:32</imageChangedDateTime>
+            
+            
+            <detailsXML>http://www.bundestag.de/xml/aktuell/38205173_kw11_nsu_wolff.xml</detailsXML>
+            <lastChanged>15.03.2012 16:08</lastChanged>
+            <changedDateTime>15.03.2012 16:08</changedDateTime>
+
+            
+            
+            
+            </news>
+
+
+
+
+
+
+            
+            <news>
+            <startteaser>0</startteaser>
+            <date>13.03.2012</date>
+            <title><![CDATA[Neue Wohlstandsmodelle]]></title>
+
+            <teaser><![CDATA[Eine Rede Achim Steiners, des Chefs des UN-Umweltprogramms, steht im Mittelpunkt eines Symposiums  ... ]]></teaser>
+            
+                <imageURL>http://www.bundestag.de/dokumente/textarchiv/2012/38176207_kw12_pa_enquete_wachstum/kompass_m.jpg</imageURL>
+                <imageGrossURL>http://www.bundestag.de/dokumente/textarchiv/2012/38176207_kw12_pa_enquete_wachstum/kompass_gross.jpg</imageGrossURL>
+                <imageCopyright>DBT/Berno Buff</imageCopyright>
+                <imageChangedDateTime>13.03.2012 14:53</imageChangedDateTime>
+            
+            
+            <detailsXML>http://www.bundestag.de/xml/aktuell/38176207_kw12_pa_enquete_wachstum.xml</detailsXML>
+
+            <lastChanged>14.03.2012 17:01</lastChanged>
+            <changedDateTime>14.03.2012 17:01</changedDateTime>
+            
+            
+            
+            </news>
+
+
+
+
+
+
+            
+            <news>
+            <startteaser>0</startteaser>
+
+            <date>12.03.2012</date>
+            <title><![CDATA[Politische Teilhabe im Netz]]></title>
+            <teaser><![CDATA[Die Enquete-Kommission "Internet und digitale Gesellschaft" beschäftigt sich am Montag, 19. März,   ... ]]></teaser>
+            
+                <imageURL>http://www.bundestag.de/dokumente/textarchiv/2012/38163897_kw12_pa_enquete_internet/tatstatur_m.jpg</imageURL>
+                <imageGrossURL>http://www.bundestag.de/dokumente/textarchiv/2012/38163897_kw12_pa_enquete_internet/tatstatur_gross.jpg</imageGrossURL>
+                <imageCopyright>dpa-Report</imageCopyright>
+                <imageChangedDateTime>12.03.2012 15:36</imageChangedDateTime>
+
+            
+            
+            <detailsXML>http://www.bundestag.de/xml/aktuell/38163897_kw12_pa_enquete_internet.xml</detailsXML>
+            <lastChanged>14.03.2012 17:20</lastChanged>
+            <changedDateTime>14.03.2012 17:20</changedDateTime>
+            
+            
+            
+            </news>
+
+
+
+
+
+
+            
+            <news>
+            <startteaser>0</startteaser>
+            <date>12.03.2012</date>
+            <title><![CDATA[Ungeschriebene Regeln]]></title>
+            <teaser><![CDATA[Das Protokoll kümmert sich um das "Zeremoniell" im Bundestag. Doch so unbeweglich, wie man oft  ... ]]></teaser>
+            
+                <imageURL>http://www.bundestag.de/dokumente/textarchiv/2012/38157882_kw11_protokoll_bv/koch_m.jpg</imageURL>
+                <imageGrossURL>http://www.bundestag.de/dokumente/textarchiv/2012/38157882_kw11_protokoll_bv/koch_gross.jpg</imageGrossURL>
+
+                <imageCopyright>DBT/Sandra Schmid</imageCopyright>
+                <imageChangedDateTime>12.03.2012 11:05</imageChangedDateTime>
+            
+            
+            <detailsXML>http://www.bundestag.de/xml/aktuell/38157882_kw11_protokoll_bv.xml</detailsXML>
+            <lastChanged>12.03.2012 16:16</lastChanged>
+            <changedDateTime>12.03.2012 16:16</changedDateTime>
+            
+            
+            
+            </news>
+
+
+
+
+        <news>
+            <startteaser>0</startteaser>
+            <date></date>
+            <title><![CDATA[Impressum]]></title>
+            <teaser><![CDATA[Inhaltliche Verantwortung, Redaktion, Konzeption und Entwicklung]]></teaser>
+            <imageURL></imageURL>
+
+            <imageCopyright></imageCopyright>
+            <detailsXML>http://www.bundestag.de/xml/impressum/index.xml</detailsXML>
+            <lastChanged>16.12.2011 13:14</lastChanged>
+            <changedDateTime>16.12.2011 13:14</changedDateTime>
+        </news>
+
+    </newslist>
+</new>
+
