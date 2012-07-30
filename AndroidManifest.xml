@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:installLocation="preferExternal"
+    package="de.bundestag.android"
+    android:versionCode="7"
+    android:versionName="2.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:debuggable="true"
+        android:icon="@drawable/icon"
+        android:label="Bundestag"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity android:name="de.bundestag.android.sections.news.NewsStartActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="de.bundestag.android.sections.news.NewsActivity" />
+        <activity android:name="de.bundestag.android.sections.news.NewsDetailsActivity" />
+        <activity android:name="de.bundestag.android.sections.news.NewsListActivity" />
+        <activity android:name="de.bundestag.android.sections.plenum.PlenumNewsActivity" />
+        <activity android:name="de.bundestag.android.sections.plenum.PlenumNewsDetailsActivity" />
+        <activity android:name="de.bundestag.android.sections.plenum.PlenumSpeakersActivity" />
+        <activity android:name="de.bundestag.android.sections.plenum.PlenumDebatesActivity" />
+        <activity android:name="de.bundestag.android.sections.plenum.PlenumVideoActivity" />
+        <activity android:name="de.bundestag.android.sections.committees.CommitteesActivityTablet" android:configChanges="orientation"/>
+        <activity
+            android:name="de.bundestag.android.sections.plenum.PlenumSpeakersActivityTablet"
+            android:configChanges="orientation" />
+        <activity
+            android:name="de.bundestag.android.sections.news.NewsActivityTablet"
+            android:configChanges="orientation" />
+        <activity
+            android:name="de.bundestag.android.sections.visitors.VisitorsOffersActivityTablet"
+            android:configChanges="orientation" />
+        <activity
+            android:name="de.bundestag.android.sections.plenum.PlenumTvActivity"
+            android:configChanges="orientation" />
+        <activity
+            android:name="de.bundestag.android.sections.plenum.PlenumAudioActivity"
+            android:configChanges="orientation" />
+        <activity android:name="de.bundestag.android.sections.plenum.PlenumVideoPlayerActivity" />
+        <activity android:name="de.bundestag.android.sections.plenum.PlenumSitzungenActivity" />
+        <activity android:name="de.bundestag.android.sections.plenum.PlenumAufgabeActivity" />
+        <activity android:name="de.bundestag.android.sections.plenum.PlenumObjectViewActivity" />
+        <activity android:name="de.bundestag.android.sections.plenum.DebateNewsActivity" />
+        <activity android:name="de.bundestag.android.sections.plenum.DebateNewsDetailsActivity" />
+        <activity android:name="de.bundestag.android.sections.plenum.PlenumDebatesNewsDetailsActivity" />
+        <activity android:name="de.bundestag.android.sections.members.MembersListActivity" />
+        <activity android:name="de.bundestag.android.sections.members.MembersDetailsActivity" />
+        <activity android:name="de.bundestag.android.sections.members.MembersDetailsBiographyActivity" />
+        <activity android:name="de.bundestag.android.sections.members.MembersDetailsInfoActivity" />
+        <activity android:name="de.bundestag.android.sections.members.MembersDetailsCommitteesActivity" />
+        <activity android:name="de.bundestag.android.sections.members.MembersDetailsContactActivity" />
+        <activity android:name="de.bundestag.android.sections.members.MembersFractionActivity" />
+        <activity android:name="de.bundestag.android.sections.members.MembersCityActivity" />
+        <activity android:name="de.bundestag.android.sections.members.MembersElectionActivity" />
+        <activity android:name="de.bundestag.android.sections.members.MembersSubpageMembersActivity" />
+        <activity android:name="de.bundestag.android.sections.members.MembersCommitteesDetailsNewsActivity" />
+        <activity android:name="de.bundestag.android.sections.members.MembersCommitteesDetailsMembersActivity" />
+        <activity android:name="de.bundestag.android.sections.members.MembersCommitteesDetailsTasksActivity" />
+        <activity android:name="de.bundestag.android.sections.members.MembersSubListDetailsActivity" />
+        <activity android:name="de.bundestag.android.sections.committees.CommitteesActivity" />
+        <activity android:name="de.bundestag.android.sections.committees.CommitteesDetailsNewsActivity" />
+        <activity android:name="de.bundestag.android.sections.committees.CommitteesDetailsNewsDetailsActivity" />
+        <activity android:name="de.bundestag.android.sections.committees.CommitteesDetailsNewsDetailsFragmentActivity" android:configChanges="orientation"/>
+        <activity android:name="de.bundestag.android.sections.committees.CommitteesDetailsMembersActivity" />
+        <activity android:name="de.bundestag.android.sections.committees.CommitteesDetailsMembersByFractionActivity" />
+        <activity android:name="de.bundestag.android.sections.committees.CommitteesDetailsTasksActivity" />
+        <activity android:name="de.bundestag.android.sections.committees.CommitteesDetailsMemberDetailsActivity" />
+        <activity android:name="de.bundestag.android.sections.committees.CommitteesDetailsMemberBiographyActivity" />
+        <activity android:name="de.bundestag.android.sections.committees.CommitteesDetailsMemberCommitteesActivity" />
+        <activity android:name="de.bundestag.android.sections.committees.CommitteesDetailsMemberContactActivity" />
+        <activity android:name="de.bundestag.android.sections.committees.CommitteesDetailsMemberInfoActivity" />
+        <activity android:name="de.bundestag.android.sections.visitors.VisitorsOffersActivity" />
+        <activity android:name="de.bundestag.android.sections.visitors.VisitorsOffersListActivity" />
+        <activity android:name="de.bundestag.android.sections.visitors.VisitorsOffersDetailsActivity" />
+        <activity android:name="de.bundestag.android.sections.visitors.VisitorsDetailsActivity" />
+        <activity android:name="de.bundestag.android.sections.visitors.VisitorsLocationsActivity" />
+        <activity
+            android:name="de.bundestag.android.sections.visitors.VisitorsLocationsActivityTablet"
+            android:configChanges="orientation" />
+        <activity android:name="de.bundestag.android.sections.visitors.VisitorsLocationsListActivity" />
+        <activity android:name="de.bundestag.android.sections.visitors.VisitorsLocationsDetailsActivity" />
+        <activity android:name="de.bundestag.android.sections.visitors.VisitorsNewsActivity" />
+        <activity
+            android:name="de.bundestag.android.sections.visitors.VisitorsNewsActivityTablet"
+            android:configChanges="orientation" />
+        <activity android:name="de.bundestag.android.sections.visitors.VisitorsNewsDetailsActivity" />
+        <activity android:name="de.bundestag.android.sections.visitors.VisitorsContactActivity" />
+        <activity android:name="de.bundestag.android.sections.visitors.VisitorsGalleryActivity" />
+        <activity android:name="de.bundestag.android.sections.impressum.ImpressumActivity" />
+        <activity
+            android:name="de.bundestag.android.sections.committees.CommitteesMembersTabletActivity"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".sections.members.MembersCityActivityTab"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".sections.members.MembersElectionActivityTab"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".sections.members.MembersFractionActivityTab"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="de.bundestag.android.VideoPlayer"
+            android:configChanges="orientation" />
+    </application>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>
