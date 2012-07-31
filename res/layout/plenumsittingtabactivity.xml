@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/mainMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal" >
+
+        <include layout="@layout/main_menu" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnrScrollable"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="@drawable/bg"
+        android:orientation="horizontal" >
+        <fragment
+            android:id="@+id/listFragment"
+            android:name="de.bundestag.android.sections.plenum.PlenumSpeakersFragmentActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/eagle_bg" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/detailLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <include layout="@layout/main_header" />
+
+</LinearLayout>

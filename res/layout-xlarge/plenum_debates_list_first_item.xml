@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:paddingLeft="20dip"
+    android:paddingRight="20dip"
+    android:paddingBottom="50dip" >
+
+    <TextView
+        android:id="@+id/redner_title"
+        style="@style/GeneralTitleTab"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:maxLines="2"
+        android:text="Debatten am " />
+    <!-- table header -->
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/line_separator"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/plenum_redner_header_bg"
+        android:orientation="horizontal"
+        android:paddingLeft="10dip"
+        android:visibility="gone"
+        android:weightSum="1" >
+
+        <TextView
+            style="@style/PlenumRedner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:lines="1"
+            android:maxLines="1"
+            android:paddingTop="10dip"
+            android:text="Uhrzeit" />
+
+        <TextView
+            style="@style/PlenumRedner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:lines="1"
+            android:maxLines="1"
+            android:paddingTop="10dip"
+            android:text="TOP" />
+
+        <TextView
+            style="@style/PlenumRedner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:lines="1"
+            android:maxLines="1"
+            android:paddingTop="10dip"
+            android:text="Thema" />
+    </LinearLayout>
+
+</LinearLayout>

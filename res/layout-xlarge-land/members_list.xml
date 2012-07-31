@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/mainMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="@android:color/white"
+        android:orientation="horizontal" >
+
+        <include layout="@layout/main_menu" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnrScrollable"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="@drawable/bg"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/titleSubmenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp" >
+
+                    <TextView
+                        android:id="@+id/headingMembers"
+                        style="@style/WhiteTitle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:text="Test" />
+
+                    <TextView
+                        android:id="@+id/countFraction"
+                        style="@style/WhiteTitleSub"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLines="2" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/lineId"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#607071" />
+
+                <fragment
+                    android:id="@+id/listFragment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/eagle_bg"
+                    android:fastScrollEnabled="true"
+                    android:name="de.bundestag.android.fragments.GeneralListFragmentTab" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="14dip"
+                android:layout_height="fill_parent"
+                android:layout_alignRight="@+id/listFragment"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    style="@style/BlackCopy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="A" />
+
+                <TextView
+                    style="@style/BlackCopy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="B" />
+
+                <TextView
+                    style="@style/BlackCopy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="C" />
+
+                <TextView
+                    style="@style/BlackCopy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="D" />
+
+                <TextView
+                    style="@style/BlackCopy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="E" />
+
+                <TextView
+                    style="@style/BlackCopy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="F" />
+
+                <TextView
+                    style="@style/BlackCopy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="G" />
+
+                <TextView
+                    style="@style/BlackCopy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="H" />
+
+                <TextView
+                    style="@style/BlackCopy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="I" />
+
+                <TextView
+                    style="@style/BlackCopy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="J" />
+
+                <TextView
+                    style="@style/BlackCopy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="K" />
+
+                <TextView
+                    style="@style/BlackCopy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="L" />
+
+                <TextView
+                    style="@style/BlackCopy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="M" />
+
+                <TextView
+                    style="@style/BlackCopy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="N" />
+
+                <TextView
+                    style="@style/BlackCopy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="O" />
+
+                <TextView
+                    style="@style/BlackCopy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="P" />
+
+                <TextView
+                    style="@style/BlackCopy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="Q" />
+
+                <TextView
+                    style="@style/BlackCopy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="R" />
+
+                <TextView
+                    style="@style/BlackCopy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="S" />
+
+                <TextView
+                    style="@style/BlackCopy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="T" />
+
+                <TextView
+                    style="@style/BlackCopy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="U" />
+
+                <TextView
+                    style="@style/BlackCopy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="V" />
+
+                <TextView
+                    style="@style/BlackCopy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="W" />
+
+                <TextView
+                    style="@style/BlackCopy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="X" />
+
+                <TextView
+                    style="@style/BlackCopy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="Y" />
+
+                <TextView
+                    style="@style/BlackCopy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="Z" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/detailLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:orientation="horizontal" >
+
+        <fragment
+            android:id="@+id/detailsFragment"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:name="de.bundestag.android.sections.members.MembersDetailsFragment" />
+    </LinearLayout>
+
+    <include layout="@layout/main_header_with_menu" />
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <!--  -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="85dp"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+            <TextView
+                android:id="@+id/title"
+                style="@style/BlackTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|left"
+                android:ellipsize="marquee"
+                android:maxLines="2"
+                android:minLines="1"
+                android:text="Test"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/teaser"
+                style="@style/GreySubTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|left"
+                android:ellipsize="marquee"
+                android:lines="1"
+                android:maxLines="1"
+                android:text="Test 1"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight=".9"
+            android:adjustViewBounds="true"
+            android:paddingRight="10dip"
+            android:src="@drawable/link_teaser"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</LinearLayout>

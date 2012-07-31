@@ -1,0 +1,221 @@
+<sql>
+	<statement>
+		CREATE TABLE IF NOT EXISTS news (
+			_id INTEGER PRIMARY KEY AUTOINCREMENT,
+			list_id INTEGER,
+			type INTEGER,
+			date DATE,
+			startteaser TEXT,
+			status TEXT,
+			title TEXT,
+			teaser TEXT,
+			image_url TEXT,
+			image_copyright TEXT,
+	        image_string BLOB,
+			details_xml TEXT,
+			video_url TEXT,
+			video_stream_url TEXT,
+			last_changed DATE,
+			changed_date_time DATETIME,
+			details_date DATE,
+			details_title TEXT,
+			details_image_url TEXT,
+			details_image_copyright TEXT,
+			details_image_last_changed DATE,
+			details_image_changed_date_time DATETIME,
+	        details_image_string BLOB,
+            details_text TEXT)
+	</statement>
+
+	<statement>
+		CREATE TABLE IF NOT EXISTS news_lists (
+			_id INTEGER PRIMARY KEY AUTOINCREMENT,
+			type INTEGER,
+			parent_news_id TEXT,
+			title TEXT)
+	</statement>
+
+	<statement>
+		CREATE TABLE IF NOT EXISTS plenums (
+			_id INTEGER PRIMARY KEY AUTOINCREMENT,
+			status INTEGER,
+			type INTEGER,
+			date DATE,
+			title TEXT,
+			teaser TEXT,
+			text TEXT,
+			image_url TEXT,
+			image_copyright TEXT,
+	        image_string BLOB)
+	</statement>
+
+	<statement>
+		CREATE TABLE IF NOT EXISTS members (
+			_id INTEGER PRIMARY KEY AUTOINCREMENT,
+			member_id TEXT,
+			name TEXT,
+			bio_url TEXT,
+			info_url TEXT,
+			info_url_more TEXT,
+	        land TEXT,
+			photo TEXT,
+	        photo_string BLOB,
+			photo_last_changed DATE,
+			photo_changed_date_time DATETIME,
+			last_changed DATE,
+			changed_date_time DATETIME,
+			details_status TEXT,
+			details_exit_date DATE,
+			details_last_name TEXT,
+			details_first_name TEXT,
+			details_title TEXT,
+			details_course TEXT,
+			details_local TEXT,
+			details_birthdate DATE,
+			details_religion TEXT,
+			details_degree TEXT,
+			details_higher_education TEXT,
+			details_profession TEXT,
+			details_profession_field TEXT,
+			details_sex TEXT,
+			details_marital_status TEXT,
+			details_children INTEGER,
+			details_fraction TEXT,
+			details_party TEXT,
+			details_city TEXT,
+			details_elected TEXT,
+			details_bio_url TEXT,
+			details_information TEXT,
+			details_more TEXT,
+			details_homepage TEXT,
+			details_phone TEXT,
+			details_disclosure_information TEXT,
+			details_media_photo TEXT,
+	        details_media_photo_string BLOB,
+			details_media_photo_copyright TEXT,
+			details_speaker_url TEXT,
+			details_speaker_rss TEXT,
+			details_election_number TEXT,
+			details_election_name TEXT,
+			details_election_url TEXT,
+			details_election_city TEXT)
+	</statement>
+
+	<statement>
+		CREATE TABLE IF NOT EXISTS member_groups (
+			_id INTEGER PRIMARY KEY AUTOINCREMENT,
+			member_id INTEGER,
+			type INTEGER,
+			group_id TEXT,
+			title TEXT,
+			name TEXT,
+			url TEXT,
+			rss TEXT)
+	</statement>
+
+	<statement>
+		CREATE TABLE IF NOT EXISTS member_websites (
+			_id INTEGER PRIMARY KEY AUTOINCREMENT,
+			member_id TEXT,
+			title TEXT,
+			url TEXT)
+	</statement>
+
+	<statement>
+		CREATE TABLE IF NOT EXISTS committees (
+			_id INTEGER PRIMARY KEY AUTOINCREMENT,
+			committee_id TEXT,
+			name TEXT,
+			course TEXT,
+			teaser TEXT,
+			last_changed DATE,
+	        changed_date_time DATETIME,
+			image_last_changed DATE,
+			image_changed_date_time DATETIME,
+			details_xml TEXT,
+			details_name TEXT,
+			details_photo_url TEXT,
+	        details_photo_string BLOB,
+			details_photo_copyright TEXT,
+			description TEXT)
+	</statement>
+
+	<statement>
+		CREATE TABLE IF NOT EXISTS committees_news (
+			_id INTEGER PRIMARY KEY AUTOINCREMENT,
+			committee_id TEXT,
+			date DATE,
+			title TEXT,
+			teaser TEXT,
+			image_url TEXT,
+	        image_string BLOB,
+			image_copyright TEXT,
+	        details_xml TEXT,
+			last_changed DATE,
+			details_date TEXT,
+			details_title TEXT,
+	        details_image_url TEXT,
+	        details_image_string TEXT,
+	        details_image_copyright TEXT,
+	        details_image_last_changed DATE,
+			details_image_changed_date_time DATETIME,
+			details_text TEXT)
+	</statement>
+
+	<statement>
+		CREATE TABLE IF NOT EXISTS visitors (
+			_id INTEGER PRIMARY KEY AUTOINCREMENT,
+			date DATE,
+			type TEXT,
+			id TEXT,
+			url TEXT,
+	        image_string BLOB)
+	</statement>
+
+	<statement>
+		CREATE TABLE IF NOT EXISTS visitors_article_lists (
+			_id INTEGER PRIMARY KEY AUTOINCREMENT,
+			type INTEGER,
+			parent_article_id TEXT,
+			title TEXT)
+	</statement>
+
+	<statement>
+		CREATE TABLE IF NOT EXISTS visitors_articles (
+			_id INTEGER PRIMARY KEY AUTOINCREMENT,
+			date DATE,
+			type TEXT,
+			specific_type INTEGER,
+			article_list_id INTEGER,
+			id TEXT,
+			title TEXT,
+			teaser TEXT,
+			text TEXT,
+			image_id TEXT,
+			image_string BLOB,
+			image_copyright TEXT)
+	</statement>
+
+	<statement>
+		CREATE TABLE IF NOT EXISTS visitors_galleries (
+			_id INTEGER PRIMARY KEY AUTOINCREMENT,
+			title TEXT,
+			gallery_id TEXT
+			)
+	</statement>
+
+	<statement>
+		CREATE TABLE IF NOT EXISTS visitors_pictures (
+			_id INTEGER PRIMARY KEY AUTOINCREMENT,
+			image_id TEXT,
+			image_date DATE,
+			image_string BLOB,
+			image_copyright TEXT,
+			text TEXT,
+			gallery_id TEXT,
+			article_id TEXT,
+			teaser TEXT,
+			list_id TEXT)
+	</statement>
+
+</sql>

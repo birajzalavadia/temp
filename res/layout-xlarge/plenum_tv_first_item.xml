@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/mainTitle"
+        style="@style/WhiteTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:background="@drawable/background"
+        android:maxLines="3"
+        android:paddingBottom="50dip"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:text="Plenum" />
+
+    <RadioGroup
+        android:id="@+id/tvWeek"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_navigation_gradient_active"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp"
+        android:weightSum="7" >
+
+        <RadioButton
+            android:id="@+id/mon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/radio_background"
+            android:button="@null"
+            android:gravity="center"
+            android:text="Mo" />
+
+        <RadioButton
+            android:id="@+id/tue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_background"
+            android:button="@null"
+            android:gravity="center"
+            android:text="Di" />
+
+        <RadioButton
+            android:id="@+id/wed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_background"
+            android:button="@null"
+            android:gravity="center"
+            android:text="Mi" />
+
+        <RadioButton
+            android:id="@+id/thu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_background"
+            android:button="@null"
+            android:gravity="center"
+            android:text="Do" />
+
+        <RadioButton
+            android:id="@+id/fri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_background"
+            android:button="@null"
+            android:gravity="center"
+            android:text="Fr" />
+
+        <RadioButton
+            android:id="@+id/sat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_background"
+            android:button="@null"
+            android:gravity="center"
+            android:text="Sa" />
+
+        <RadioButton
+            android:id="@+id/sun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_background"
+            android:button="@null"
+            android:gravity="center"
+            android:text="So" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/dateTitle"
+        style="@style/WhiteTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:background="#272F32"
+        android:padding="20dip"
+        android:text="Date" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#607071" />
+
+</LinearLayout>

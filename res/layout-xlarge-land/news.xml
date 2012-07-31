@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/topPort"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:id="@+id/mainMenu1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/header_gradient" >
+
+            <ImageView
+                android:id="@+id/header_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:padding="0dip"
+                android:src="@drawable/bt_android_id" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/master"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/white"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/mainMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@android:color/transparent"
+            android:orientation="horizontal" >
+
+            <include layout="@layout/main_menu" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnrScrollable"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/bg"
+            android:orientation="horizontal" >
+
+            <fragment
+                android:id="@+id/listFragment"
+                android:name="de.bundestag.android.fragments.GeneralListFragmentTab"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/eagle_bg" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/detailL"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <include layout="@layout/detailheadergradient" />
+
+            <LinearLayout
+                android:id="@+id/detailLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@android:color/transparent"
+                android:orientation="horizontal" >
+
+                <fragment
+                    android:id="@+id/detailsFragment"
+                    android:name="de.bundestag.android.sections.news.NewsDetailsFragment"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <include layout="@layout/main_header" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomPort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:background="@android:color/white"
+            android:orientation="horizontal"
+            android:weightSum="5" >
+
+            <ImageView
+                android:id="@+id/tab11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tab_item_1" />
+
+            <ImageView
+                android:id="@+id/tab21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tab_item_2" />
+
+            <ImageView
+                android:id="@+id/tab31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tab_item_3" />
+
+            <ImageView
+                android:id="@+id/tab41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tab_item_4" />
+
+            <ImageView
+                android:id="@+id/tab51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tab_item_5" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

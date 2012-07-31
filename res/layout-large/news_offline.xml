@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<include
+		layout="@layout/main_header" />
+
+
+
+	<RelativeLayout
+
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:background="@drawable/plenum_video_bg_grad">
+
+
+		<ImageView
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:src="@drawable/eagle_watermark"
+			android:scaleType="fitEnd" />
+
+		<TextView
+			android:id="@+id/name"
+			style="@style/WhiteTitle"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="top|left"
+			android:paddingLeft="10dip"
+			android:paddingRight="10dip"
+			android:paddingTop="5dip" />
+
+		<ImageView
+			android:id="@+id/image"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:adjustViewBounds="true"
+			android:scaleType="centerCrop" />
+
+		<TextView
+			android:id="@+id/copyright"
+			style="@style/WhiteSubTitle"
+			android:text="Dieser Bereich kann leider nur mit einer aktiven Internet-Verbindung angezeigt werden"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="top|left"
+			android:paddingLeft="10dip"
+			android:paddingRight="10dip"
+			android:paddingTop="5dip" />
+
+		<TextView
+			android:id="@+id/text"
+			style="@style/WhiteText"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="top|left"
+			android:paddingLeft="10dip"
+			android:paddingRight="10dip"
+			android:paddingTop="5dip" />
+	</RelativeLayout>
+
+
+	<include
+		layout="@layout/main_menu" />
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:gravity="right" >
+
+    <LinearLayout
+        android:id="@+id/popUp_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dip"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.5" >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/popup_top"
+                android:layout_marginTop="-2dp"
+                android:background="@android:color/white" >
+            </View>
+
+            <FrameLayout
+                android:id="@+id/popup_top"
+                android:layout_width="fill_parent"
+                android:layout_height="56dp"
+                android:background="@drawable/top_navigation_gradient" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:gravity="center"
+                    android:paddingLeft="20dip"
+                    android:src="@drawable/dropdownimage" />
+
+                <TextView
+                    android:id="@+id/popupHeading"
+                    style="@style/PopUpTitleTab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="right"
+                    android:text="heading" />
+            </FrameLayout>
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/popup_top"                
+                android:fadingEdge="none" 
+                android:background="@android:color/white"
+                android:cacheColorHint="@android:color/white">
+            </ListView>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@id/popup_top"
+                android:background="@drawable/url_popover_bottom" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5" >
+
+            <ImageView
+                android:id="@+id/arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/arrow" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

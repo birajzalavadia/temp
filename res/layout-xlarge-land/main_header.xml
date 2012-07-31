@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/headerGradient"
+    android:layout_width="100dip"
+    android:layout_height="fill_parent"
+    android:background="@drawable/header_gradient_land" >
+
+    <ImageView
+        android:id="@+id/header_logo"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:paddingTop="20dip"
+        android:paddingBottom="10dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:layout_marginLeft="5dip"
+        android:src="@drawable/logo" />
+
+</LinearLayout>

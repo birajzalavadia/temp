@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@android:color/white">
+
+	<include
+		layout="@layout/main_header" />
+
+	<include
+		layout="@layout/sub_menu" />
+		
+	<TextView
+		android:id="@+id/name"
+		style="@style/WhiteTitle"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="top|left"
+		android:background="@drawable/visitor_title_gradient"
+		android:paddingBottom="5dip"
+		android:paddingLeft="10dip"
+		android:paddingRight="10dip"
+		android:paddingTop="5dip"
+		android:text="Aktuell: Weltweite Bildungssituation" />
+	<RelativeLayout
+
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:background="@drawable/plenum_video_bg_grad">
+
+
+		<ImageView
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:src="@drawable/eagle_watermark"
+			android:scaleType="fitEnd" />
+		<fragment
+			android:name="de.bundestag.android.fragments.GeneralDetailsFragment"
+			android:id="@+id/detailsFragment"
+			android:layout_weight="1"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+
+	</RelativeLayout>
+
+	<include
+		layout="@layout/main_menu" />
+
+</LinearLayout>

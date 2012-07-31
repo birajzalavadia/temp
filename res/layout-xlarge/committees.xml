@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/topPort"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@android:color/white"
+            android:baselineAligned="true"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:weightSum="1" >
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:weightSum="1" >
+
+                <ImageView
+                    android:id="@+id/tab1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.20"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tab_item_land_1" />
+
+                <ImageView
+                    android:id="@+id/tab2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="0.20"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tab_item_land_2" />
+
+                <ImageView
+                    android:id="@+id/tab3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="0.20"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tab_item_land_3" />
+
+                <ImageView
+                    android:id="@+id/tab4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="0.20"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tab_item_land_4" />
+
+                <ImageView
+                    android:id="@+id/tab5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="0.20"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tab_item_land_5" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mainMaster"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/headerSubMenu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical" >
+
+            <include layout="@layout/main_header" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/master"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/lnrScrollable"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/bg"
+                android:orientation="horizontal" >
+
+                <fragment
+                    android:id="@+id/listFragment"
+                    android:name="de.bundestag.android.fragments.GeneralListFragmentTab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/eagle_bg" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/detailL"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <include layout="@layout/detailheadergradient" />
+
+                <LinearLayout
+                    android:id="@+id/detailLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@android:color/transparent"
+                    android:orientation="horizontal" >
+
+                    <fragment
+                        android:id="@+id/detailsFragment"
+                        android:name="de.bundestag.android.sections.committees.CommitteesDetailsFragment"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/headerGradient"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="horizontal" >
+
+            <include layout="@layout/main_menu" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomPort"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:id="@+id/headerGradient"
+            android:layout_width="100dip"
+            android:layout_height="fill_parent"
+            android:background="@drawable/header_gradient_land" >
+
+            <ImageView
+                android:id="@+id/header_logo"
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:adjustViewBounds="true"
+                android:padding="10dip"
+                android:src="@drawable/logo" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+
+table {
+   border-collapse: collapse;
+}
+
+tr {
+   border-right: 1px solid #DDDFE0;
+   vertical-align: top;
+}
+
+th {
+   background-color: #F2F4F4;
+   border-top: 1px solid #DDDFE0;
+   border-bottom: 1px solid #A0AAAC;
+   border-left: 1px solid #DDDFE0;
+   text-align: left;
+}
+
+td {
+   border-bottom: 1px solid #A0AAAC;
+   border-left: 1px solid #DDDFE0;
+   text-align: left;
+}

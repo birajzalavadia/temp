@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?> 
+<tagesordnungen>
+    <tagesordnung>
+        <startzeit>20110415090000</startzeit> 
+        <endzeit /> 
+        <status>Überwiesen an Bildungsausschuss u.a.</status> 
+        <titel>Berufsbildung</titel> 
+        <top>23</top> 
+        <protokoll /> 
+        <link>/dokumente/textarchiv/2011/34104273_kw15_sp_azubis/index.html</link> 
+        <xmlLink>http://www.bundestag.de/xml/aktuell/34104273_kw15_sp_azubis.xml</xmlLink> 
+    </tagesordnung>
+    <tagesordnung>
+        <startzeit>20110415104000</startzeit> 
+        <endzeit /> 
+        <status>Live</status> 
+        <titel>Sonderausschuss zur Energiewende</titel> 
+        <top>24, ZP 6</top> 
+        <protokoll /> 
+        <link>/dokumente/textarchiv/2011/34129685_kw15_sp_energiewende/index.html</link> 
+        <xmlLink>http://www.bundestag.de/xml/aktuell/34129685_kw15_sp_energiewende.xml</xmlLink> 
+    </tagesordnung>
+    <tagesordnung>
+        <startzeit>20110415124500</startzeit> 
+        <endzeit /> 
+        <status>Folgt</status> 
+        <titel>Lkw-Maut für Bundesfernstraßen</titel> 
+        <top>25</top> 
+        <protokoll /> 
+        <link>/dokumente/textarchiv/2011/34081195_kw15_vorschau/index.html</link> 
+        <xmlLink>http://www.bundestag.de/xml/aktuell/34081195_sp15_voschau.xml</xmlLink> 
+    </tagesordnung>
+</tagesordnungen>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_gravity="top"
+		android:fillViewport="true">
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@android:color/white"
+			android:orientation="vertical">
+
+			
+			
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@android:color/white"
+				android:orientation="vertical">
+
+				<TextView
+					android:id="@+id/title"
+					style="@style/BlackTitle"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="top|left"
+					android:ellipsize="marquee"
+					android:padding="10dip" />
+
+				<TextView
+					android:id="@+id/subtitle"
+					style="@style/BlackTitle"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="top|left"
+					android:ellipsize="marquee"
+					android:padding="10dip" />
+
+				<TextView
+					android:id="@+id/contact_name"
+					style="@style/BlackSubTitleBold"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="top|left"
+					android:paddingLeft="10dip"
+					android:paddingRight="10dip"
+					android:paddingTop="10dip"
+					android:text="teste" />
+
+				<TextView
+					android:id="@+id/text"
+					style="@style/BlackSubTitle"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="top|left"
+					android:ellipsize="marquee"
+					android:paddingBottom="10dip"
+					android:paddingLeft="10dip"
+					android:paddingRight="10dip" />
+			</LinearLayout>
+
+			<TextView
+				style="@style/BlackTitle"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="top|left"
+				android:ellipsize="marquee"
+				android:padding="10dip"
+				android:text="Internet" />
+			<!-- -->
+
+			<ImageView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:scaleType="fitXY"
+				android:src="@drawable/line_separator" />
+
+			<LinearLayout
+				android:id="@+id/websites"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@android:color/white"
+				android:orientation="vertical">
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>

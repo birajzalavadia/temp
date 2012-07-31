@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/master"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/mainMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="@android:color/transparent"
+        android:orientation="vertical" >
+
+        <include
+            android:layout_width="match_parent"
+            layout="@layout/main_menu" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnrScrollable"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="@drawable/bg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/secondTitle"
+            style="@style/WhiteTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:background="@drawable/topbackground"
+            android:paddingBottom="50dip"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip"
+            android:paddingTop="20dip"
+            android:text="Plenum\nAufgaben und Sitzungen" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#607071" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="openOffline"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/mainTitle"
+                style="@style/WhiteTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|left"
+                android:background="@drawable/background"
+                android:paddingBottom="50dip"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:paddingTop="20dip"
+                android:text="Aufgaben des Plenums" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#607071" />
+
+        <LinearLayout
+            android:id="@+id/sitzungen_line1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background"
+            android:orientation="vertical"
+            android:visibility="invisible" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openLine1"
+                android:orientation="vertical"
+                android:padding="20dp" >
+
+                <TextView
+                    android:id="@+id/sitzungen_line1_text1"
+                    style="@style/ListItemTitleTab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="4" />
+
+                <TextView
+                    android:id="@+id/sitzungen_line1_text2"
+                    style="@style/ListItemSubTitleTab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2" />
+
+                <TextView
+                    android:id="@+id/sitzungen_line1_text3"
+                    style="@style/ListItemSubTitleTab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#607071" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sitzungen_line2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background"
+            android:orientation="vertical"
+            android:visibility="invisible" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openLine2"
+                android:orientation="vertical"
+                android:padding="20dp" >
+
+                <TextView
+                    android:id="@+id/sitzungen_line2_text1"
+                    style="@style/ListItemTitleTab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="4" />
+
+                <TextView
+                    android:id="@+id/sitzungen_line2_text2"
+                    style="@style/ListItemSubTitleTab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2" />
+
+                <TextView
+                    android:id="@+id/sitzungen_line2_text3"
+                    style="@style/ListItemSubTitleTab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#607071" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sitzungen_line3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background"
+            android:orientation="vertical"
+            android:visibility="invisible" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openLine3"
+                android:orientation="vertical"
+                android:padding="20dp" >
+
+                <TextView
+                    android:id="@+id/sitzungen_line3_text1"
+                    style="@style/ListItemTitleTab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="4" />
+
+                <TextView
+                    android:id="@+id/sitzungen_line3_text2"
+                    style="@style/ListItemSubTitleTab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2" />
+
+                <TextView
+                    android:id="@+id/sitzungen_line3_text3"
+                    style="@style/ListItemSubTitleTab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#607071" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sitzungen_line4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background"
+            android:orientation="vertical"
+            android:visibility="invisible" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openLine4"
+                android:orientation="vertical"
+                android:padding="20dp" >
+
+                <TextView
+                    android:id="@+id/sitzungen_line4_text1"
+                    style="@style/ListItemTitleTab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="4" />
+
+                <TextView
+                    android:id="@+id/sitzungen_line4_text2"
+                    style="@style/ListItemSubTitleTab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2" />
+
+                <TextView
+                    android:id="@+id/sitzungen_line4_text3"
+                    style="@style/ListItemSubTitleTab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#607071" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/detailL"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <include layout="@layout/detailheadergradient" />
+
+        <LinearLayout
+            android:id="@+id/detailLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:color/transparent"
+            android:orientation="vertical" >
+
+            <fragment
+                android:id="@+id/detailsFragment"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:name="de.bundestag.android.sections.plenum.PlenumObjectViewFragment" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <include layout="@layout/main_header_with_menu" />
+
+</LinearLayout>

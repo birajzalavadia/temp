@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:background="@null" android:id="@+id/main_layout"
+	android:clickable="true">
+
+	
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_marginLeft="400dp"
+		android:layout_marginRight="400dp" android:layout_marginBottom="50dp"
+		android:layout_marginTop="10dp" android:orientation="vertical">
+
+
+
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+			<View android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:background="@android:color/white" android:layout_marginTop="-2dp"
+				android:layout_below="@+id/popup_top">
+			</View>
+		
+			<ImageView android:id="@+id/popup_top"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:background="@drawable/url_popover_top"
+				android:layout_centerHorizontal="true" android:layout_below="@+id/arrow" />
+            <ListView android:layout_width="fill_parent" 
+                android:layout_height="wrap_content" android:id="@+id/listView" 
+                android:layout_below="@id/popup_top">
+            </ListView>
+
+			<ImageView android:id="@+id/arrow" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:background="@drawable/arrow"
+				android:layout_alignParentTop="true"
+				android:layout_alignParentRight="true" android:layout_marginBottom="-4dp" />
+
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="Heading"
+				android:textColor="@android:color/white" android:textSize="20sp"
+				android:textStyle="bold" android:layout_alignTop="@id/popup_top"
+				android:layout_centerHorizontal="true" android:layout_marginTop="5dp" />
+		
+			<ImageView
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_alignParentLeft="true"
+			    android:layout_alignParentTop="true"
+			    android:background="@drawable/url_popover_bottom" />
+
+		</RelativeLayout>
+
+
+	</LinearLayout>
+
+</LinearLayout>

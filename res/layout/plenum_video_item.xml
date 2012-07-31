@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/plenum_video_bg_grad"
+    android:orientation="vertical" >
+
+    <include layout="@layout/main_header" />
+
+    <include layout="@layout/sub_menu" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitEnd"
+            android:src="@drawable/eagle_watermark" >
+        </ImageView>
+<ScrollView  android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+            <RelativeLayout 
+                android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/videoStreamTitle"
+            style="@style/WhiteTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:paddingBottom="15dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:text="" /> <!-- Live aus dem Deutschen Bundestag" / -->
+
+
+            <ImageView
+                android:id="@+id/previewImage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/videoStreamTitle"
+                android:layout_centerInParent="true"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"                
+                android:layout_alignBottom="@id/previewImage"
+                android:background="@drawable/gallery_top_grad"
+                android:onClick="playVideo"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:paddingBottom="6dp"
+                    android:paddingLeft="17dp"
+                    android:paddingRight="6dp"
+                    android:paddingTop="6dp"
+                    android:src="@drawable/video_play" />
+
+                <TextView
+                    style="@style/PlenumVideoWhiteSubtitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:gravity="right"
+                    android:paddingRight="20dp"
+                    android:paddingTop="15dp"
+                    android:text="Live Stream starten" />            
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"       
+                android:layout_below="@id/previewImage"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/videoStreamDescription"
+                    style="@style/WhiteText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/previewImage"
+                    android:minLines="1"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:text=""
+                    android:gravity="bottom"
+                    android:layout_weight="1" />
+
+        </LinearLayout>
+        </RelativeLayout>
+        </ScrollView>
+          </RelativeLayout>
+    
+ 
+
+    <include layout="@layout/main_menu" />
+
+</LinearLayout>

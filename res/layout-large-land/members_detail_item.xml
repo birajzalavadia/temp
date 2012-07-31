@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical" 
+        android:weightSum="10">
+
+        <RelativeLayout
+            android:id="@+id/contentHolder"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/plenum_video_bg_grad" 
+            android:layout_weight="6">
+            
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignBottom="@+id/image_container"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:paddingTop="20dip"
+                android:scaleType="fitEnd"
+                android:src="@drawable/eagle_watermark_small" />
+
+            <LinearLayout
+                android:id="@+id/image_container"
+                android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="10dip"
+                android:weightSum="1" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/image_tab"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:adjustViewBounds="true"
+                        android:padding="10dip"
+                        android:scaleType="fitStart" />
+
+                    <TextView
+                        android:id="@+id/copy_tab"
+                        style="@style/WhiteCopy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|left"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/name_tab"
+                        style="@style/WhiteTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|left"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip"
+                        android:paddingTop="5dip" />
+
+                    <TextView
+                        android:id="@+id/occupation_tab"
+                        style="@style/WhiteSubTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|left"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip"
+                        android:paddingTop="8dip" />
+
+                    <TextView
+                        android:id="@+id/status_tab"
+                        style="@style/WhiteSubTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|left"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip"
+                        android:paddingTop="8dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" 
+            android:layout_weight="4">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/top_nav_orange" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/top_navigation_gradient"
+                android:orientation="horizontal"
+                android:weightSum="1" >
+
+                <LinearLayout
+                    android:id="@+id/subMenuHolder1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:background="@drawable/top_navigation_gradient"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/bio_tab"
+                        style="@style/NavigationItem"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:paddingBottom="10dip"
+                        android:paddingLeft="2dip"
+                        android:paddingRight="2dip"
+                        android:paddingTop="10dip"
+                        android:text="Biografie" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="2px"
+                    android:layout_height="fill_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/submenu_separator" />
+
+                <LinearLayout
+                    android:id="@+id/subMenuHolder2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:background="@drawable/top_navigation_gradient"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/publications_tab"
+                        android:layout_width="fill_parent"
+                        style="@style/NavigationItem"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:paddingBottom="10dip"
+                        android:paddingLeft="2dip"
+                        android:paddingRight="2dip"
+                        android:paddingTop="10dip"
+                        android:text="VerÃ¶ffentlichungspflichtige" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="2px"
+                    android:layout_height="fill_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/submenu_separator" />
+
+                <LinearLayout
+                    android:id="@+id/subMenuHolder3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:background="@drawable/top_navigation_gradient"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/committees_tab"
+                        android:layout_width="fill_parent"
+                        style="@style/NavigationItem"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:paddingBottom="10dip"
+                        android:paddingLeft="2dip"
+                        android:paddingRight="2dip"
+                        android:paddingTop="10dip"
+                        android:text="Mitgliedschaften" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="2px"
+                    android:layout_height="fill_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/submenu_separator" />
+
+                <LinearLayout
+                    android:id="@+id/subMenuHolder4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:background="@drawable/top_navigation_gradient"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/kontakt_tab"
+                        style="@style/NavigationItem"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:paddingBottom="10dip"
+                        android:paddingLeft="2dip"
+                        android:paddingRight="2dip"
+                        android:paddingTop="10dip"
+                        android:text="Kontakt" />
+                </LinearLayout>
+            </LinearLayout>
+
+           
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:id="@+id/base_fragment"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+                </LinearLayout>
+               <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/top_nav_grey" />
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

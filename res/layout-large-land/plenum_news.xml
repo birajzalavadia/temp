@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="horizontal" >
+
+    <include
+                android:layout_weight="1"
+        layout="@layout/main_menu" />
+
+ <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/WhiteTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/visitor_title_gradient"
+            android:paddingBottom="5dip"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="5dip"
+            android:text="Aktuell: Weltweite Bildungssituation"
+            android:layout_weight="1" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/plenum_video_bg_grad"
+            android:layout_below="@id/name" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="fitEnd"
+                android:src="@drawable/eagle_watermark" />
+
+            <fragment
+                android:id="@+id/detailsFragment"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:name="de.bundestag.android.fragments.GeneralDetailsFragment" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <include layout="@layout/main_header_with_menu" />
+
+</LinearLayout>

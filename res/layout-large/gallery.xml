@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gallery_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#4C5D5E" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <Gallery
+            android:id="@+id/gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_horizontal"
+            android:gravity="top|center_horizontal"
+            android:spacing="0dip" />
+
+        <TextView
+            android:id="@+id/galleryImageDesc"
+            style="@style/GalleryImageDesc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="18dip"
+            android:paddingRight="18dip"
+            android:paddingTop="5dip" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/galleryImageCopy"
+            style="@style/GalleryImageCopy"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingBottom="5dip"
+            android:paddingLeft="18dip"
+            android:paddingRight="18dip"
+            android:paddingTop="3dip" >
+        </TextView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/gallery_overlay"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gallery_top_grad"
+            android:onClick="closeGallery" >
+
+            <TextView
+                android:id="@+id/galleryTitle"
+                style="@style/GalleryTopTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:onClick="closeGallery"
+                android:padding="5dip"
+                android:paddingBottom="8dip"
+                android:text="Schliessen" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#BF0E1516"
+            android:onClick="dummyHandler"
+            android:orientation="vertical"
+            android:paddingLeft="0dip"
+            android:paddingRight="0dip"
+            android:paddingTop="10dip" >
+
+            <TextView
+                android:id="@+id/galleryImageDesc"
+                style="@style/GalleryImageDesc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="18dip"
+                android:paddingRight="18dip"
+                android:paddingTop="5dip" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/galleryImageCopy"
+                style="@style/GalleryImageCopy"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingBottom="5dip"
+                android:paddingLeft="18dip"
+                android:paddingRight="18dip"
+                android:paddingTop="3dip" >
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/galleryDots"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:paddingBottom="15dip"
+                android:paddingTop="15dip" >
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="#607071" >
+            </View>
+
+            <LinearLayout
+                android:id="@+id/galleryControl"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gallery_ctrl_grad"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:paddingBottom="6dip"
+                android:paddingTop="6dip" >
+
+                <ImageButton
+                    android:id="@+id/galleryBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:onClick="galleryBack"
+                    android:padding="0dip"
+                    android:src="@drawable/gallery_back" />
+
+                <ImageButton
+                    android:id="@+id/galleryPlay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dip"
+                    android:layout_marginRight="40dip"
+                    android:background="@android:color/transparent"
+                    android:onClick="galleryPlay"
+                    android:padding="0dip"
+                    android:src="@drawable/gallery_play" />
+
+                <ImageButton
+                    android:id="@+id/galleryForward"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:onClick="galleryForward"
+                    android:padding="0dip"
+                    android:src="@drawable/gallery_forward" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

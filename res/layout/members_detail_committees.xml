@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@android:color/white">
+
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_gravity="top"
+		android:fillViewport="true">
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@android:color/white"
+			android:orientation="vertical">
+
+			<RelativeLayout
+
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/plenum_video_bg_grad"
+				android:id="@+id/contentHolder">
+
+
+				<ImageView
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:src="@drawable/eagle_watermark_small"
+					android:scaleType="fitEnd"
+					android:layout_alignBottom="@+id/image_container"
+					android:layout_weight="1"
+					android:paddingTop="20dip"
+					android:adjustViewBounds="true" />
+
+				<LinearLayout
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:id="@+id/image_container"
+					android:weightSum="1"
+					android:paddingBottom="10dip">
+
+					<LinearLayout
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:layout_weight="0.6"
+						android:orientation="vertical">
+
+						<ImageView
+							android:id="@+id/image"
+							android:layout_width="fill_parent"
+							android:layout_height="wrap_content"
+							android:adjustViewBounds="true"
+							android:scaleType="fitStart"
+							android:padding="10dip" />
+
+						<TextView
+							android:id="@+id/copy"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_gravity="top|left"
+							android:paddingLeft="10dip"
+							android:paddingRight="10dip"
+							style="@style/WhiteCopy" />
+					</LinearLayout>
+
+					<LinearLayout
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:layout_weight="0.4"
+						android:orientation="vertical">
+
+						<TextView
+							android:id="@+id/name"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_gravity="top|left"
+							style="@style/WhiteTitle"
+							android:paddingLeft="10dip"
+							android:paddingTop="5dip"
+							android:paddingRight="10dip" />
+
+						<TextView
+							android:id="@+id/occupation"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_gravity="top|left"
+							style="@style/WhiteSubTitle"
+							android:paddingLeft="10dip"
+							android:paddingTop="8dip"
+							android:paddingRight="10dip" />
+
+						<TextView
+							android:id="@+id/status"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_gravity="top|left"
+							style="@style/WhiteSubTitle"
+							android:paddingLeft="10dip"
+							android:paddingTop="8dip"
+							android:paddingRight="10dip" />
+					</LinearLayout>
+
+				</LinearLayout>
+
+			</RelativeLayout>
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@android:color/white"
+				android:orientation="vertical">
+
+				<TextView
+					android:id="@+id/title"
+					style="@style/BlackTitle"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="top|left"
+					android:ellipsize="marquee"
+					android:padding="10dip"
+					android:text="Mitgliedschaften in Gremien des Bundestages" />
+			</LinearLayout>
+			<!-- -->
+
+			<LinearLayout
+				android:id="@+id/president_group"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@android:color/white"
+				android:orientation="vertical">
+
+				<TextView
+					android:id="@+id/president_member"
+					style="@style/BlackTitle"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="top|left"
+					android:ellipsize="marquee"
+					android:paddingBottom="10dip"
+					android:paddingLeft="10dip"
+					android:paddingRight="10dip"
+					android:paddingTop="20dip"
+					android:text="Ordentliches Mitglied" />
+
+				<LinearLayout
+					android:id="@+id/president_member_committees"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:background="@android:color/white"
+					android:orientation="vertical" />
+
+				<ImageView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:scaleType="fitXY"
+					android:src="@drawable/line_separator" />
+			</LinearLayout>
+			<!-- -->
+			<!-- -->
+
+			<LinearLayout
+				android:id="@+id/sub_president_group"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@android:color/white"
+				android:orientation="vertical">
+
+				<TextView
+					android:id="@+id/sub_president_member"
+					style="@style/BlackTitle"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="top|left"
+					android:ellipsize="marquee"
+					android:paddingBottom="10dip"
+					android:paddingLeft="10dip"
+					android:paddingRight="10dip"
+					android:paddingTop="20dip"
+					android:text="Ordentliches Mitglied" />
+
+				<LinearLayout
+					android:id="@+id/sub_president_member_committees"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:background="@android:color/white"
+					android:orientation="vertical" />
+
+				<ImageView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:scaleType="fitXY"
+					android:src="@drawable/line_separator" />
+			</LinearLayout>
+			<!-- -->
+			<LinearLayout
+				android:id="@+id/coordinate_group"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@android:color/white"
+				android:orientation="vertical">
+
+				<TextView
+					android:id="@+id/coordinate_member"
+					style="@style/BlackTitle"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="top|left"
+					android:ellipsize="marquee"
+					android:paddingBottom="10dip"
+					android:paddingLeft="10dip"
+					android:paddingRight="10dip"
+					android:paddingTop="20dip"
+					android:text="Ordentliches Mitglied" />
+
+				<LinearLayout
+					android:id="@+id/coordinate_member_committees"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:background="@android:color/white"
+					android:orientation="vertical">
+				</LinearLayout>
+
+				<ImageView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:scaleType="fitXY"
+					android:src="@drawable/line_separator" />
+			</LinearLayout>
+			<!-- -->
+
+			<LinearLayout
+				android:id="@+id/full_group"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@android:color/white"
+				android:orientation="vertical">
+
+				<TextView
+					android:id="@+id/full_member"
+					style="@style/BlackTitle"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="top|left"
+					android:ellipsize="marquee"
+					android:paddingBottom="10dip"
+					android:paddingLeft="10dip"
+					android:paddingRight="10dip"
+					android:paddingTop="20dip"
+					android:text="Ordentliches Mitglied" />
+
+				<LinearLayout
+					android:id="@+id/full_member_committees"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:background="@android:color/white"
+					android:orientation="vertical" />
+
+				<ImageView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:scaleType="fitXY"
+					android:src="@drawable/line_separator" />
+
+			</LinearLayout>
+			<!-- -->
+
+			<LinearLayout
+				android:id="@+id/deputy_group"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@android:color/white"
+				android:orientation="vertical">
+
+				<TextView
+					android:id="@+id/deputy_member"
+					style="@style/BlackTitle"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="top|left"
+					android:ellipsize="marquee"
+					android:paddingBottom="10dip"
+					android:paddingLeft="10dip"
+					android:paddingRight="10dip"
+					android:paddingTop="20dip"
+					android:text="Ordentliches Mitglied" />
+
+				<LinearLayout
+					android:id="@+id/deputy_member_committees"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:background="@android:color/white"
+					android:orientation="vertical" />
+
+				<ImageView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:scaleType="fitXY"
+					android:src="@drawable/line_separator" />
+
+			</LinearLayout>
+			<!-- -->
+
+
+			<LinearLayout
+				android:id="@+id/substitute_group"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@android:color/white"
+				android:orientation="vertical">
+
+				<TextView
+					android:id="@+id/substitute_member"
+					style="@style/BlackTitle"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="top|left"
+					android:ellipsize="marquee"
+					android:paddingBottom="10dip"
+					android:paddingLeft="10dip"
+					android:paddingRight="10dip"
+					android:paddingTop="20dip"
+					android:text="Ordentliches Mitglied" />
+
+				<LinearLayout
+					android:id="@+id/substitute_member_committees"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:background="@android:color/white"
+					android:orientation="vertical" />
+
+				<ImageView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:scaleType="fitXY"
+					android:src="@drawable/line_separator" />
+
+			</LinearLayout>
+
+			<!-- /////////////////////////////////////// -->
+
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@android:color/white"
+				android:orientation="vertical">
+
+				<TextView
+					android:id="@+id/other_title"
+					style="@style/BlackTitle"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="top|left"
+					android:ellipsize="marquee"
+					android:padding="10dip"
+					android:text="Mitgliedschaften in sonstigen Gremien" />
+			</LinearLayout>
+			<!-- -->
+
+			<LinearLayout
+				android:id="@+id/other_president_group"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@android:color/white"
+				android:orientation="vertical">
+
+				<TextView
+					android:id="@+id/other_president_member"
+					style="@style/BlackTitle"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="top|left"
+					android:ellipsize="marquee"
+					android:paddingBottom="10dip"
+					android:paddingLeft="10dip"
+					android:paddingRight="10dip"
+					android:paddingTop="20dip"
+					android:text="Ordentliches Mitglied" />
+
+				<LinearLayout
+					android:id="@+id/other_president_member_committees"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:background="@android:color/white"
+					android:orientation="vertical" />
+
+				<ImageView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:scaleType="fitXY"
+					android:src="@drawable/line_separator" />
+			</LinearLayout>
+			<!-- -->
+			<!-- -->
+
+			<LinearLayout
+				android:id="@+id/other_sub_president_group"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@android:color/white"
+				android:orientation="vertical">
+
+				<TextView
+					android:id="@+id/other_sub_president_member"
+					style="@style/BlackTitle"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="top|left"
+					android:ellipsize="marquee"
+					android:paddingBottom="10dip"
+					android:paddingLeft="10dip"
+					android:paddingRight="10dip"
+					android:paddingTop="20dip"
+					android:text="Ordentliches Mitglied" />
+
+				<LinearLayout
+					android:id="@+id/other_sub_president_member_committees"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:background="@android:color/white"
+					android:orientation="vertical" />
+
+				<ImageView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:scaleType="fitXY"
+					android:src="@drawable/line_separator" />
+			</LinearLayout>
+			<!-- -->
+			<LinearLayout
+				android:id="@+id/other_coordinate_group"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@android:color/white"
+				android:orientation="vertical">
+
+				<TextView
+					android:id="@+id/other_coordinate_member"
+					style="@style/BlackTitle"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="top|left"
+					android:ellipsize="marquee"
+					android:paddingBottom="10dip"
+					android:paddingLeft="10dip"
+					android:paddingRight="10dip"
+					android:paddingTop="20dip"
+					android:text="Ordentliches Mitglied" />
+
+				<LinearLayout
+					android:id="@+id/other_coordinate_member_committees"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:background="@android:color/white"
+					android:orientation="vertical">
+				</LinearLayout>
+
+				<ImageView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:scaleType="fitXY"
+					android:src="@drawable/line_separator" />
+			</LinearLayout>
+			<!-- -->
+
+			<LinearLayout
+				android:id="@+id/other_full_group"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@android:color/white"
+				android:orientation="vertical">
+
+				<TextView
+					android:id="@+id/other_full_member"
+					style="@style/BlackTitle"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="top|left"
+					android:ellipsize="marquee"
+					android:paddingBottom="10dip"
+					android:paddingLeft="10dip"
+					android:paddingRight="10dip"
+					android:paddingTop="20dip"
+					android:text="Ordentliches Mitglied" />
+
+				<LinearLayout
+					android:id="@+id/other_full_member_committees"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:background="@android:color/white"
+					android:orientation="vertical" />
+
+				<ImageView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:scaleType="fitXY"
+					android:src="@drawable/line_separator" />
+
+			</LinearLayout>
+			<!-- -->
+
+			<LinearLayout
+				android:id="@+id/other_deputy_group"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@android:color/white"
+				android:orientation="vertical">
+
+				<TextView
+					android:id="@+id/other_deputy_member"
+					style="@style/BlackTitle"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="top|left"
+					android:ellipsize="marquee"
+					android:paddingBottom="10dip"
+					android:paddingLeft="10dip"
+					android:paddingRight="10dip"
+					android:paddingTop="20dip"
+					android:text="Ordentliches Mitglied" />
+
+				<LinearLayout
+					android:id="@+id/other_deputy_member_committees"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:background="@android:color/white"
+					android:orientation="vertical" />
+
+				<ImageView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:scaleType="fitXY"
+					android:src="@drawable/line_separator" />
+
+			</LinearLayout>
+			<!-- -->
+
+
+			<LinearLayout
+				android:id="@+id/other_substitute_group"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@android:color/white"
+				android:orientation="vertical">
+
+				<TextView
+					android:id="@+id/other_substitute_member"
+					style="@style/BlackTitle"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="top|left"
+					android:ellipsize="marquee"
+					android:paddingBottom="10dip"
+					android:paddingLeft="10dip"
+					android:paddingRight="10dip"
+					android:paddingTop="20dip"
+					android:text="Ordentliches Mitglied" />
+
+				<LinearLayout
+					android:id="@+id/other_substitute_member_committees"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:background="@android:color/white"
+					android:orientation="vertical" />
+
+				<ImageView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:scaleType="fitXY"
+					android:src="@drawable/line_separator" />
+
+			</LinearLayout>
+		</LinearLayout>
+
+
+	</ScrollView>
+
+</LinearLayout>

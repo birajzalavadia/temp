@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+
+	<!-- row -->
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:background="@drawable/plenum_redner_row_bg"
+		android:weightSum="1"
+		android:paddingLeft="10dip">
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:layout_weight="0.35">
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text=""
+				android:id="@+id/start_time"
+				style="@style/WhiteSubTitle"
+				android:paddingTop="10dip"
+				android:lines="1"
+				android:maxLines="1" />
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:paddingTop="5dip">
+
+				<ImageView
+					android:src="@drawable/plenum_redner_dot_1"
+					android:id="@+id/dot"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:scaleType="fitXY"
+					android:layout_marginRight="5dip"
+					android:layout_marginTop="3dip" />
+
+				<TextView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:text=""
+					android:id="@+id/status"
+					android:lines="1"
+					android:maxLines="1"
+					style="@style/PlenumRedner" />
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+
+
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text=""
+			android:id="@+id/topic"
+			style="@style/PlenumRedner"
+			android:paddingTop="10dip"
+			android:lines="2"
+			android:maxLines="2"
+			android:layout_weight="0.40" />
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:layout_weight="0.25">
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text=""
+				android:id="@+id/name"
+				style="@style/PlenumRedner"
+				android:paddingTop="10dip"
+				android:minLines="1"/>
+
+
+		<ImageView
+			android:layout_width="20dip"
+			android:layout_height="wrap_content"
+			android:adjustViewBounds="true"
+			android:src="@drawable/link"
+			android:paddingRight="0dip"
+			android:layout_gravity="center"
+			android:id="@+id/arrow"
+			/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+
+	<!-- end row -->
+</LinearLayout>

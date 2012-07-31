@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<new>  
+    <dokumentInfo>
+        <dokumentURL>http://www.bundestag.de/xml/aktuell/index.xml</dokumentURL>
+        <dokumentStand>29.12.2011</dokumentStand>
+        <dokumentDebattenStatus>1</dokumentDebattenStatus>
+        <dokumentAusschuesseStatus>1</dokumentAusschuesseStatus>
+    </dokumentInfo>
+<newslist>
+<news>
+    <startteaser>1</startteaser>
+    <status></status>
+    <date></date>
+    <title><![CDATA[Digitale Wirtschafts- und Arbeitswelt]]></title>
+    <teaser><![CDATA[Mit ihrem Zwischenbericht zum Thema Datenschutz beschäftigt sich die Enquete -Kommission "Internet und digitale Gesellschaft" unter Vorsitz von Axel E. Fischer (CDU/CSU) in öffentlicher Sitzung am Montag, 12. Dezember. Die Sitzung wird live im Parlamentsfernsehen, im Web-TV und für mobile Geräte auf  ... ]]></teaser>
+
+    <imageURL>http://www.bundestag.de/dokumente/textarchiv/2011/36883086_kw50_pa_internet/buero_320.jpg</imageURL>
+    <imageGrossURL>http://www.bundestag.de/dokumente/textarchiv/2011/36883086_kw50_pa_internet/buero_gross.jpg</imageGrossURL>
+    <imageCopyright>pa/Golden Pixels LLC</imageCopyright>
+    
+
+    <detailsXML>http://www.bundestag.de/xml/aktuell/36883086_kw50_pa_internet.xml</detailsXML>
+            <lastChanged>12.12.2011 18:06</lastChanged>
+            <changedDateTime>12.12.2011 18:06</changedDateTime>
+    <video-stream>
+        <url>http://x3777parlamentsfernsehenc13014.f.l.z.lb.core-cdn.net/10009ibt_live/smil:ios.smil/playlist.m3u8</url>
+        <streamsource>http://apps.cdn.tv1.eu/iptv/player/macros/_s_live_1000/_x_s-144277506/bttv/mobile/hk1.xml</streamsource>
+    </video-stream>
+</news>
+
+
+<news>
+    <startteaser>0</startteaser>
+    <status></status>
+    <date></date>
+    <title><![CDATA[Aspekte des Wohlergehens]]></title>
+    <teaser><![CDATA[Die Sachverständigen Christoph Schmidt und Gert Wagner befassen sich am Montag, 12. Dezember, in öffentlicher Sitzung der Enquete -Kommission "Wachstum, Wohlstand, Lebensqualität" mit der Frage, wie sich persönliches Wohlergehen messen lässt. ... ]]></teaser>
+    
+    <imageURL>http://www.bundestag.de/dokumente/textarchiv/2011/36922747_kw50_pa_wachstum/paar_m.jpg</imageURL>
+    <imageGrossURL>http://www.bundestag.de/dokumente/textarchiv/2011/36922747_kw50_pa_wachstum/paar_gross.jpg</imageGrossURL>
+    <imageCopyright>picture alliance</imageCopyright>
+    <imageChangedDateTime>13.12.2011 09:32</imageChangedDateTime>
+    
+    
+    <detailsXML>http://www.bundestag.de/xml/aktuell/36922747_kw50_pa_wachstum.xml</detailsXML>
+            <lastChanged>12.12.2011 18:06</lastChanged>
+            <changedDateTime>12.12.2011 18:06</changedDateTime>
+    <video-stream>
+        <url>http://x4177pfs2c13014.f.l.z.lb.core-cdn.net/10028xbttvlive/mobile-s2_500/playlist.m3u8</url>
+        <streamsource>http://apps.cdn.tv1.eu/iptv/player/macros/_s_live_1000/_x_s-144277506/bttv/mobile/hk2.xml</streamsource>
+    </video-stream>
+</news>
+            <news>
+            <startteaser>0</startteaser>
+            <date>06.01.2012</date>
+            <title><![CDATA[Rund um die Uhr im Einsatz]]></title>
+            <teaser><![CDATA[Auf fast alle Fragen hat er eine Antwort: der virtuelle Adler. Seit sieben Jahren ist er schon  ... ]]></teaser>
+            
+                <imageURL>http://www.bundestag.de/dokumente/textarchiv/2012/37292199_kw01_virtueller_berater/adler_m.jpg</imageURL>
+                <imageGrossURL>http://www.bundestag.de/dokumente/textarchiv/2012/37292199_kw01_virtueller_berater/adler_gross.jpg</imageGrossURL>
+                <imageCopyright>DBT</imageCopyright>
+                <imageChangedDateTime>06.01.2012 12:41</imageChangedDateTime>
+            
+            
+            <detailsXML>http://www.bundestag.de/xml/aktuell/37292199_kw01_virtueller_berater.xml</detailsXML>
+            <lastChanged>06.01.2012</lastChanged>
+            <changedDateTime>06.01.2012</changedDateTime>
+            
+            
+            
+            </news>
+
+
+
+
+
+
+            
+            <news>
+            <startteaser>0</startteaser>
+            <date>28.12.2011</date>
+            <title><![CDATA[Kleine und Große Anfragen]]></title>
+            <teaser><![CDATA[In 60 Jahren Deutscher Bundestag wurden rund 230.000 Anfragen an die Bundesregierungen gestellt.  ... ]]></teaser>
+            
+                <imageURL>http://www.bundestag.de/dokumente/textarchiv/2011/37215383_kw52_instrumente_bundestag/winkelmann_m.jpg</imageURL>
+                <imageGrossURL>http://www.bundestag.de/dokumente/textarchiv/2011/37215383_kw52_instrumente_bundestag/winkelmann_gross.jpg</imageGrossURL>
+                <imageCopyright>DBT</imageCopyright>
+                <imageChangedDateTime>02.01.2012 10:34</imageChangedDateTime>
+            
+            
+            <detailsXML>http://www.bundestag.de/xml/aktuell/37215383_kw52_instrumente_bundestag.xml</detailsXML>
+            <lastChanged>06.01.2012</lastChanged>
+            <changedDateTime>06.01.2012</changedDateTime>
+            
+            
+            
+            </news>
+
+
+
+
+
+
+            
+            <news>
+            <startteaser>0</startteaser>
+            <date>13.12.2011</date>
+            <title><![CDATA[Kummerkasten der Nation]]></title>
+            <teaser><![CDATA["Petitionen sind ein sehr guter Gradmesser, wo ein Gesetz nicht ausreichend durchdacht wurde", sagt  ... ]]></teaser>
+            
+                <imageURL>http://www.bundestag.de/dokumente/textarchiv/2011/37026575_kw51_petitionsausschuss/portraet_m.jpg</imageURL>
+                <imageGrossURL>http://www.bundestag.de/dokumente/textarchiv/2011/37026575_kw51_petitionsausschuss/portraet_gross.jpg</imageGrossURL>
+                <imageCopyright>DBT/SMNeumann</imageCopyright>
+                <imageChangedDateTime>13.12.2011 11:05</imageChangedDateTime>
+            
+            
+            <detailsXML>http://www.bundestag.de/xml/aktuell/37026575_kw51_petitionsausschuss.xml</detailsXML>
+            <lastChanged>05.01.2012</lastChanged>
+            <changedDateTime>05.01.2012</changedDateTime>
+            
+            
+            
+            </news>
+
+
+
+
+
+
+            <news-list>
+            
+            <startteaser>0</startteaser>
+            <date></date>
+            <title><![CDATA[Themen in den Ausschüssen]]></title>
+            <teaser><![CDATA[ ... ]]></teaser>
+            
+                <imageURL>http://www.bundestag.de/dokumente/textarchiv/2012/37261660_kw03_pa_arbeit_soziales/arbeitsgesetzbuch_m.jpg</imageURL>
+                <imageGrossURL>http://www.bundestag.de/dokumente/textarchiv/2012/37261660_kw03_pa_arbeit_soziales/arbeitsgesetzbuch_gross.jpg</imageGrossURL>
+                <imageCopyright>dpa - Report</imageCopyright>
+                <imageChangedDateTime>05.01.2012 13:40</imageChangedDateTime>
+            
+            
+            <detailsXML>http://www.bundestag.de/xml/aktuell/ausschuesse/index.xml</detailsXML>
+            <lastChanged>05.01.2012</lastChanged>
+            <changedDateTime>05.01.2012</changedDateTime>
+            
+            
+            </news-list>
+            
+            
+
+
+
+
+
+            
+            <news>
+            <startteaser>0</startteaser>
+            <date>30.12.2011</date>
+            <title><![CDATA["Sehr positive Bilanz"]]></title>
+            <teaser><![CDATA[Seit Mai 2010 tagt die Enquete Kommission "Internet und digitale Gesellschaft". Der Vorsitzender  ... ]]></teaser>
+            
+                <imageURL>http://www.bundestag.de/dokumente/textarchiv/2011/37221217_kw52_interview_fischer/fischer_m.jpg</imageURL>
+                <imageGrossURL>http://www.bundestag.de/dokumente/textarchiv/2011/37221217_kw52_interview_fischer/fischer_gross.jpg</imageGrossURL>
+                <imageCopyright>DBT/Jacob</imageCopyright>
+                <imageChangedDateTime>04.01.2012 11:41</imageChangedDateTime>
+            
+            
+            <detailsXML>http://www.bundestag.de/xml/aktuell/37221217_kw52_interview_fischer.xml</detailsXML>
+            <lastChanged>03.01.2012</lastChanged>
+            <changedDateTime>03.01.2012</changedDateTime>
+            
+            
+            
+            </news>
+
+
+
+
+
+
+            
+            <news>
+            <startteaser>0</startteaser>
+            <date>20.12.2011</date>
+            <title><![CDATA[Das gilt im neuen Jahr]]></title>
+            <teaser><![CDATA[Zum 1. Januar treten eine Reihe von neuen Gesetzen und gesetzlichen Änderungen in Kraft. Sie  ... ]]></teaser>
+            
+                <imageURL>http://www.bundestag.de/dokumente/textarchiv/2011/37136557_kw51_neu2012/gesetze_m.jpg</imageURL>
+                <imageGrossURL>http://www.bundestag.de/dokumente/textarchiv/2011/37136557_kw51_neu2012/gesetze_gross.jpg</imageGrossURL>
+                <imageCopyright>pa/Image Source</imageCopyright>
+                <imageChangedDateTime>21.12.2011 09:40</imageChangedDateTime>
+            
+            
+            <detailsXML>http://www.bundestag.de/xml/aktuell/37136557_kw51_neu2011.xml</detailsXML>
+            <lastChanged>28.12.2011</lastChanged>
+            <changedDateTime>28.12.2011</changedDateTime>
+            
+            
+            
+            </news>
+
+
+
+
+
+
+            
+            <news>
+            <startteaser>0</startteaser>
+            <date>21.12.2011</date>
+            <title><![CDATA[Wichtige Beschlüsse 2011]]></title>
+            <teaser><![CDATA[Atomausstieg, Aussetzung der Wehrpflicht, eingeschränkte Zulassung der Präimplantationsdiagnostik -  ... ]]></teaser>
+            
+                <imageURL>http://www.bundestag.de/dokumente/textarchiv/2011/37145432_kw51_gesetze_2011/buero_m.jpg</imageURL>
+                <imageGrossURL>http://www.bundestag.de/dokumente/textarchiv/2011/37145432_kw51_gesetze_2011/buero_gross.jpg</imageGrossURL>
+                <imageCopyright>pa/chromorange</imageCopyright>
+                <imageChangedDateTime>21.12.2011 11:06</imageChangedDateTime>
+            
+            
+            <detailsXML>http://www.bundestag.de/xml/aktuell/37145432_kw51_gesetze_2011.xml</detailsXML>
+            <lastChanged>27.12.2011</lastChanged>
+            <changedDateTime>27.12.2011</changedDateTime>
+            
+            
+            
+            </news>
+
+
+
+
+
+
+            
+            <news>
+            <startteaser>0</startteaser>
+            <date>20.05.2011</date>
+            <title><![CDATA[Fakten zum Anhören]]></title>
+            <teaser><![CDATA[Informationen zum H&ouml;ren: Der Bundestag bietet die Reihe &quot;Der Aktuelle Begriff&quot; und  ... ]]></teaser>
+            
+                <imageURL>http://www.bundestag.de/dokumente/textarchiv/2011/35284900_kw31_rss_analysen/rss_m.jpg</imageURL>
+                <imageGrossURL>http://www.bundestag.de/dokumente/textarchiv/2011/35284900_kw31_rss_analysen/rss_gross.jpg</imageGrossURL>
+                <imageCopyright>picture alliance /DBT</imageCopyright>
+                <imageChangedDateTime>01.08.2011 12:52</imageChangedDateTime>
+            
+            
+            <detailsXML>http://www.bundestag.de/xml/aktuell/35284900_kw31_rss_analysen.xml</detailsXML>
+            <lastChanged>28.12.2011</lastChanged>
+            <changedDateTime>28.12.2011</changedDateTime>
+            
+            
+            
+            </news>
+
+
+
+
+
+
+            
+            <news>
+            <startteaser>0</startteaser>
+            <date>21.12.2011</date>
+            <title><![CDATA[Kostenlose App des Bundestages]]></title>
+            <teaser><![CDATA[Den Bundestag immer griffbereit dabei: Möglich ist das durch die kostenlose App 'Deutscher  ... ]]></teaser>
+            
+                <imageURL>http://www.bundestag.de/dokumente/textarchiv/2011/37145846_kw51_mobile_anwendungen/app_m.jpg</imageURL>
+                <imageGrossURL>http://www.bundestag.de/dokumente/textarchiv/2011/37145846_kw51_mobile_anwendungen/app_gross.jpg</imageGrossURL>
+                <imageCopyright>DBT</imageCopyright>
+                <imageChangedDateTime>21.12.2011 12:31</imageChangedDateTime>
+            
+            
+            <detailsXML>http://www.bundestag.de/xml/aktuell/37145846_kw51_mobile_anwendungen.xml</detailsXML>
+            <lastChanged>29.12.2011</lastChanged>
+            <changedDateTime>29.12.2011</changedDateTime>
+            
+            
+            
+            </news>
+
+
+
+
+
+
+            
+            <news>
+            <startteaser>0</startteaser>
+            <date>16.03.2011</date>
+            <title><![CDATA[Workshop für Jungjournalisten]]></title>
+            <teaser><![CDATA[Nachwuchsjournalisten im Alter von 16 bis 20 Jahren können vom 25. bis 30. 3. am Jugendmedien  ... ]]></teaser>
+            
+                <imageURL>http://www.bundestag.de/dokumente/textarchiv/2011/37135554_kw51_medienworkshop/workshop_journalisten_m.jpg</imageURL>
+                <imageGrossURL>http://www.bundestag.de/dokumente/textarchiv/2011/37135554_kw51_medienworkshop/workshop_journalisten_gross.jpg</imageGrossURL>
+                <imageCopyright>DBT</imageCopyright>
+                <imageChangedDateTime>20.12.2011 16:49</imageChangedDateTime>
+            
+            
+            <detailsXML>http://www.bundestag.de/xml/aktuell/37135554_kw51_medienworkshop.xml</detailsXML>
+            <lastChanged>22.12.2011</lastChanged>
+            <changedDateTime>22.12.2011</changedDateTime>
+            
+            
+            
+            </news>
+
+
+
+
+        <news>
+            <startteaser>0</startteaser>
+            <date></date>
+            <title>Impressum</title>
+            <teaser>Inhaltliche Verantwortung, Redaktion, Konzeption und Entwicklung</teaser>
+            <imageURL></imageURL>
+            <imageCopyright></imageCopyright>
+            <detailsXML>http://www.bundestag.de/xml/impressum/index.xml</detailsXML>
+            <lastChanged>16.12.2011 13:14</lastChanged>
+            <changedDateTime>16.12.2011 13:14</changedDateTime>
+        </news>
+
+    </newslist>
+</new>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@android:color/white"
+	android:orientation="vertical">
+
+	<LinearLayout
+
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@android:color/white"
+		android:orientation="horizontal"
+		android:weightSum="1"
+		android:paddingTop="10dip">
+
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="top|left"
+			android:id="@+id/websiteName"
+			style="@style/MdbNavigation"
+			android:padding="10dip"
+			android:ellipsize="marquee"
+			android:lines="1"
+			android:maxLines="1"
+			android:layout_weight="0.25" />
+
+		<ImageView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:adjustViewBounds="true"
+			android:src="@drawable/link"
+			android:paddingLeft="10dip"
+			android:paddingTop="10dip"
+			android:paddingBottom="5dip"
+			android:layout_weight="0.75" />
+
+
+
+	</LinearLayout>
+
+	<ImageView
+		android:src="@drawable/line_separator"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:scaleType="fitXY" />
+
+</LinearLayout>
+
+
+

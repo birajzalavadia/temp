@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right|bottom" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" >
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|bottom"
+                    android:background="@drawable/eagle_bg1" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <de.bundestag.android.customviews.CustomScrollView
+                android:id="@+id/scrview"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="top"
+                android:fillViewport="true" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:orientation="vertical"
+                    android:paddingBottom="20dip"
+                    android:paddingLeft="20dip"
+                    android:paddingRight="20dip"
+                    android:paddingTop="10dip" >
+
+                    <TextView
+                        style="@style/BlackSubTitleHeadingTab"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|left"
+                        android:text="Kontakt" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:orientation="vertical" >
+
+                        <!-- <TextView
+                            android:id="@+id/title"
+                            style="@style/BlackTitleItemTab"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top|left"
+                            android:ellipsize="marquee"
+                            android:paddingBottom="20dip"/> -->
+
+                        <TextView
+                            android:id="@+id/subtitle"
+                            style="@style/H3HeadingTab"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top|left"
+                            android:ellipsize="marquee"
+                            android:paddingTop="20dip"
+                            android:text="title" />
+
+                        <TextView
+                            android:id="@+id/contact_name"
+                            style="@style/BlackSubTitleBoldTab"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top|left"
+                            android:paddingTop="10dip"
+                            android:text="teste" />
+
+                        <TextView
+                            android:id="@+id/text"
+                            style="@style/BlackSubTitleTab"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top|left"
+                            android:ellipsize="marquee"
+                            android:paddingBottom="10dip"
+                            android:paddingRight="10dip" />
+                    </LinearLayout>
+
+                    <TextView
+                        style="@style/H3HeadingTab"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|left"
+                        android:ellipsize="marquee"
+                        android:paddingBottom="10dip"
+                        android:paddingTop="10dip"
+                        android:text="Internet" />
+                    <!--  -->
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/line_separator" />
+
+                    <LinearLayout
+                        android:id="@+id/websites"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+                </LinearLayout>
+            </de.bundestag.android.customviews.CustomScrollView>
+        </FrameLayout>
+    </FrameLayout>
+
+</LinearLayout>

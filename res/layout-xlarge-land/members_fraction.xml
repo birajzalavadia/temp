@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/mainMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="@android:color/white"
+        android:orientation="horizontal" >
+
+        <include layout="@layout/main_menu" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnrScrollable"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="@drawable/bg"
+        android:orientation="horizontal" >
+
+        <fragment
+            android:id="@+id/listFragment"
+            android:name="de.bundestag.android.fragments.GeneralExpandableListFragmentTab"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/eagle_bg" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/detailLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:orientation="horizontal" >
+
+        <fragment
+            android:id="@+id/detailsFragment"
+            android:name="de.bundestag.android.sections.members.MembersDetailsFragment"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+
+    <include layout="@layout/main_header_with_menu" />
+
+</LinearLayout>

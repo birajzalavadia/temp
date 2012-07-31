@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="horizontal"
+	android:background="@drawable/visitor_title_gradient">
+
+
+	<include
+		layout="@layout/main_menu" />
+
+	<RelativeLayout
+
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:background="@drawable/plenum_video_bg_grad">
+
+
+		<ImageView
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:src="@drawable/eagle_watermark"
+			android:scaleType="fitEnd" />
+		<fragment
+			android:name="de.bundestag.android.fragments.GeneralListFragment"
+			android:id="@+id/listFragment"			
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:cacheColorHint="#00000000"  />
+			
+	</RelativeLayout>
+	
+
+		<include
+		layout="@layout/main_header_with_menu" />
+
+</LinearLayout>

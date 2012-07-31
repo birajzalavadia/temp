@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="horizontal" 
+    android:weightSum="3">
+
+    <include
+        layout="@layout/main_menu" />
+
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="de.bundestag.android.fragments.GeneralListFragmentTab"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2" />
+	 <fragment
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/detailsFragment"
+        android:name="de.bundestag.android.sections.visitors.VisitorsLocationsDetailsFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" />
+    <include
+        layout="@layout/main_header_with_menu" />
+
+</LinearLayout>

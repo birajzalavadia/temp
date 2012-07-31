@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/image_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/gallery_title"
+        style="@style/BlackTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:padding="10dip"
+        android:text="Bildergalerien" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/besuch_gallery_shadow_top" />
+
+    <de.bundestag.android.sections.visitors.HorizontalListView
+        android:id="@+id/gallery_list"
+        android:layout_width="fill_parent"
+        android:layout_height="100dip"
+        android:background="@android:color/white"
+        android:spacing="0dip" >
+    </de.bundestag.android.sections.visitors.HorizontalListView>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:paddingBottom="0dip"
+        android:scaleType="fitXY"
+        android:src="@drawable/besuch_gallery_shadow_bottom" />
+
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/visitor_title_gradient"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/committeeName"
+        style="@style/WhiteTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:padding="10dip" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:id="@+id/contentHolder"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/plenum_video_bg_grad" >
+
+        <ImageView
+            android:id="@+id/back_img"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:adjustViewBounds="false"
+            android:paddingTop="0dp"
+            android:scaleType="matrix"
+            android:src="@drawable/eagle_watermark"
+            />
+
+        <LinearLayout
+            android:id="@+id/image_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/image_copy"
+                style="@style/WhiteCopy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|left"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="5dip" />
+
+            <TextView
+                android:id="@+id/article_date"
+                style="@style/WhiteSerifSubTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|left"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip" />
+            <TextView
+                android:id="@+id/title"
+                style="@style/WhiteTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|left"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="0dip" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="5dip"
+                android:paddingLeft="0dip"
+                android:paddingRight="10dip"
+                android:paddingTop="2dip"
+                android:weightSum="1" >
+
+                <TextView
+                    android:id="@+id/description"
+                    style="@style/WhiteText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|left"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip"
+                    android:paddingTop="5dip"
+                    android:layout_weight=".1"
+                    android:textColor="@android:color/white" />
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:paddingBottom="5dip"
+                    android:paddingLeft="10dip"
+                    android:paddingTop="5dip"
+                    android:layout_weight=".9"
+                    android:layout_gravity="bottom"
+                    android:baselineAlignBottom="true"
+                    android:src="@drawable/link" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

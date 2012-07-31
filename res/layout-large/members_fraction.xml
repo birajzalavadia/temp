@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <include layout="@layout/main_header" />
+
+    <include layout="@layout/sub_menu" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="2">
+
+            <fragment
+                android:id="@+id/listFragmentFraction"
+                android:name="de.bundestag.android.fragments.GeneralExpandableListFragmentTab"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:fastScrollEnabled="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/line_separator" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/detailLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@android:color/white">
+
+            <fragment
+                android:id="@+id/detailsFragment"
+                android:name="de.bundestag.android.sections.members.MembersDetailsFragment"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <include layout="@layout/main_menu" 
+        android:layout_marginBottom="50dp"/>
+
+</LinearLayout>

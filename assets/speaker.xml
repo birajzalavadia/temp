@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<plenum>
+<topicNumber>ZP 1</topicNumber>
+<live>true</live>
+<speakers>
+    <speaker>
+        <topic>Aktuelle Stunde: Untersuchungen zu möglichem Antisemitismus in der Partei DIE LINKE.</topic>
+        <startTime>20110525162640</startTime>
+        <state>previous</state>
+        <function>FDP</function>
+        <name>Patrick Kurth</name>
+    </speaker>
+    <speaker>
+        <topic>Aktuelle Stunde: Untersuchungen zu möglichem Antisemitismus in der Partei DIE LINKE.</topic>
+        <startTime>20110525163312</startTime>
+        <state>previous</state>
+        <function>SPD</function>
+        <name>Sebastian Edathy</name>
+    </speaker>
+    <speaker>
+        <topic>Aktuelle Stunde: Untersuchungen zu möglichem Antisemitismus in der Partei DIE LINKE.</topic>
+        <startTime>20110525164013</startTime>
+        <state>previous</state>
+        <function>CDU/CSU</function>
+        <name>Michael Kretschmer</name>
+    </speaker>
+    <speaker>
+        <topic>Aktuelle Stunde: Untersuchungen zu möglichem Antisemitismus in der Partei DIE LINKE.</topic>
+        <startTime>20110525164536</startTime>
+        <state>live</state>
+        <function>CDU/CSU</function>
+        <name>Philipp Mißfelder</name>
+    </speaker>
+    <speaker>
+        <topic>Aktuelle Stunde: Untersuchungen zu möglichem Antisemitismus in der Partei DIE LINKE.</topic>
+        <startTime>20110525165138</startTime>
+        <state>following</state>
+        <function>CDU/CSU</function>
+        <name>Arnold Vaatz</name>
+    </speaker>
+</speakers>
+</plenum>

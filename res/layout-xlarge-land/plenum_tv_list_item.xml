@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@drawable/visitor_title_gradient">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/timegradient"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="2dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"  
+            android:text="09:00 - ca.10:00 Uhr"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="14dp"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#272F32" >
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/ListItemTitleTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp" 
+            android:text="Konzaption fur das Humbold-Forum"/>
+        
+        <TextView
+            android:id="@+id/longTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ListItemSubTitleTab"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="5dp" 
+            android:text="official og fire des aseeuche fur kulture und medianm"
+            android:maxLines="2"/>
+        
+        <TextView
+            android:id="@+id/recordingDate"
+            android:layout_width="wrap_content"
+            style="@style/ListItemSubTitleTab"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="20dp" 
+            android:text="Konzaption fur das Humbold-Forum"/>
+    </LinearLayout>
+
+</LinearLayout>

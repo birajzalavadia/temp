@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:fillViewport="true"
+		android:layout_gravity="top">
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@android:color/white"
+			android:orientation="vertical">
+
+			<RelativeLayout
+
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/plenum_video_bg_grad"
+				android:id="@+id/contentHolder">
+
+
+				<ImageView
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:src="@drawable/eagle_watermark_small"
+					android:scaleType="fitEnd"
+					android:layout_alignBottom="@+id/image_container"
+					android:layout_weight="1"
+					android:paddingTop="20dip"
+					android:adjustViewBounds="true" />
+
+				<LinearLayout
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:id="@+id/image_container"
+					android:weightSum="1"
+					android:paddingBottom="10dip">
+
+					<LinearLayout
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:orientation="vertical"
+						android:layout_weight="0.6">
+
+						<ImageView
+							android:id="@+id/image"
+							android:layout_width="fill_parent"
+							android:layout_height="wrap_content"
+							android:adjustViewBounds="true"
+							android:scaleType="fitStart"
+							android:padding="10dip" />
+
+						<TextView
+							android:id="@+id/copy"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_gravity="top|left"
+							style="@style/WhiteCopy"
+							android:paddingLeft="10dip"
+							android:paddingRight="10dip" />
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:orientation="vertical"
+						android:layout_weight="0.4">
+
+						<TextView
+							android:id="@+id/name"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_gravity="top|left"
+							style="@style/WhiteTitle"
+							android:paddingLeft="10dip"
+							android:paddingTop="5dip"
+							android:paddingRight="10dip" />
+
+						<TextView
+							android:id="@+id/occupation"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_gravity="top|left"
+							style="@style/WhiteSubTitle"
+							android:paddingLeft="10dip"
+							android:paddingTop="8dip"
+							android:paddingRight="10dip" />
+
+						<TextView
+							android:id="@+id/status"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_gravity="top|left"
+							style="@style/WhiteSubTitle"
+							android:paddingLeft="10dip"
+							android:paddingTop="8dip"
+							android:paddingRight="10dip" />
+
+					</LinearLayout>
+
+				</LinearLayout>
+			</RelativeLayout>
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@android:color/white"
+				android:orientation="vertical">
+
+
+				<TextView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="top|left"
+					android:id="@+id/bio"
+					style="@style/BlackTitle"
+					android:padding="10dip"
+					android:ellipsize="marquee" />
+
+				<TextView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="top|left"
+					android:id="@+id/text"
+					style="@style/BlackSubTitle"
+					android:padding="10dip" />
+
+				<!--<WebView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="top|left"
+					android:id="@+id/textWeb"
+					style="@style/BlackSubTitle"
+					android:padding="10dip" />-->
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>

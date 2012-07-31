@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/plenum_video_bg_grad"
+    	 >
+
+  <include
+		layout="@layout/main_header" />
+
+	<include
+		layout="@layout/sub_menu" />
+	<RelativeLayout
+		
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		
+		>
+		
+	   
+	    <ImageView
+	        android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:src="@drawable/eagle_watermark"
+			android:scaleType="fitEnd"
+	        ></ImageView>
+	<TextView
+		    style="@style/WhiteTitle"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentTop="true"
+		    android:text=""
+		    android:paddingTop="15dp"
+		    android:paddingLeft="10dp"
+		    android:id="@+id/audioStreamTitle"
+		     />
+	        
+
+		<RelativeLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:background="@drawable/gallery_top_grad"
+		    android:onClick="toggleAudio"
+		    android:layout_centerInParent="true"
+		    >
+	<TextView
+		    style="@style/WhiteSubTitle"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:text="Buffering..."
+		    android:layout_centerVertical="true"
+		    android:paddingLeft="17dp"
+		    android:id="@+id/bufferStatus"
+		    android:visibility="invisible"
+		     />
+		    <ImageView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/video_play"
+		        android:background="@android:color/transparent"
+		        android:paddingTop="6dp"
+		        android:paddingRight="6dp"
+		        android:paddingBottom="6dp"
+		        android:paddingLeft="17dp"
+		        android:id="@+id/audio_play" />
+		    		<TextView
+		    style="@style/PlenumVideoWhiteSubtitle"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentTop="true"
+		    android:text="Audio Stream starten"
+		    android:paddingTop="15dp"
+		    android:paddingRight="20dp" 
+		    android:gravity="right"/>
+		</RelativeLayout>
+			<TextView
+		    style="@style/WhiteText"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentBottom="true"
+		    android:text=""
+		    android:paddingBottom="20dp"
+		    android:paddingLeft="10dp"
+		    android:paddingRight="10dp"
+		    android:id="@+id/audioStreamDescription"
+		     />
+	</RelativeLayout>
+
+	<include
+		layout="@layout/main_menu" />
+
+</LinearLayout>

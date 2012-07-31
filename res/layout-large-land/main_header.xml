@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent"
+	android:layout_width="70dip"			
+	android:background="@drawable/header_gradient_land">
+
+	<ImageView
+		android:id="@+id/header_logo"
+		android:src="@drawable/logo"
+		android:adjustViewBounds="true"
+		android:layout_height="wrap_content"
+		android:layout_width="70dip"
+		android:padding="10dip" />
+       
+
+</LinearLayout>

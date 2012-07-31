@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/line_separator" />
+
+    <LinearLayout
+        android:id="@+id/committee"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal"
+        android:paddingTop="10dip"
+        android:weightSum="1" >
+
+        <TextView
+            android:id="@+id/committeeName"
+            style="@style/MdbNavigationTab"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_weight="0.15"
+            android:ellipsize="marquee"
+            android:paddingBottom="15dip"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:text="Ausschuss für Gesundheit Ausschuss für Gesundheit" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.85" >
+
+            <ImageView
+                android:id="@+id/arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:src="@drawable/link" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--
+         <ImageView android:src="@drawable/line_separator" android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" android:scaleType="fitXY" />
+    -->
+
+</LinearLayout>

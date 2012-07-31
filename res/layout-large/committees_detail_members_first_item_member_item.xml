@@ -1,0 +1,56 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:id="@+id/member_item"
+	android:padding="10dip">
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="1">
+
+		<ImageView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/image"
+			android:src="@drawable/bartol_soeren"
+			android:scaleType="centerCrop"
+			android:adjustViewBounds="true"
+			android:layout_weight="0.85" />
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:layout_weight="0.15">
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="top|left"
+				android:id="@+id/member_title"
+				android:text="Name"
+				style="@style/WhiteSubTitleBold"
+				android:paddingLeft="10dip"
+				android:paddingTop="5dip"
+				android:paddingRight="10dip" />
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="top|left"
+				android:id="@+id/member_info"
+				android:text="SPD"
+				style="@style/WhiteSubTitle"
+				android:paddingLeft="10dip"
+				android:paddingTop="5dip"
+				android:paddingRight="10dip" />
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>

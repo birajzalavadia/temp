@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@android:color/white"
+	android:orientation="vertical">
+
+	<!-- -->
+
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@android:color/white"
+		android:orientation="horizontal"
+		android:weightSum="1">
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@android:color/white"
+			android:orientation="vertical"
+			android:padding="10dip"
+			android:layout_weight=".15">
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="top|left"
+				android:id="@+id/title"
+				style="@style/BlackTitle"
+				android:ellipsize="marquee"
+				android:lines="1"
+				android:maxLines="1" />
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="top|left"
+				android:id="@+id/teaser"
+				style="@style/GreySubTitle"
+				android:ellipsize="marquee"
+				android:lines="1"
+				android:maxLines="1" />
+		</LinearLayout>
+
+		<ImageView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:adjustViewBounds="true"
+			android:src="@drawable/link"
+			android:paddingRight="10dip"
+			android:layout_gravity="center"
+			android:layout_weight=".85" />
+	</LinearLayout>
+
+</LinearLayout>

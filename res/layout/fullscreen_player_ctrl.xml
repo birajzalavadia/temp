@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/video_ctrl_overlay"
+      android:visibility="visible"  
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/video_view1"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/gallery_top_grad"
+        
+         >
+	<LinearLayout android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+             >
+	    
+	    
+	
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:background="@android:color/transparent"
+            android:paddingBottom="6dp"
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:paddingTop="6dp"
+            android:src="@drawable/video_stop"
+            android:onClick="closeVideoPlayer" />
+                <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:paddingBottom="6dp"
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:paddingTop="6dp"
+            android:src="@drawable/video_pause"
+            android:onClick="toggleVideoPlayer"
+            android:id="@+id/video_pause_play" />
+</LinearLayout>
+        <TextView
+            style="@style/PlenumVideoWhiteSubtitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingRight="20dp"
+            android:paddingTop="15dp"
+            android:text="Live Stream" />
+   </RelativeLayout>

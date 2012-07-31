@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/top_nav_orange" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1" >
+
+         <LinearLayout
+            android:id="@+id/subMenuHolder1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:background="@drawable/top_navigation_gradient"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/subMenu1"
+                style="@style/NavigationItemTab"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:lines="1"
+                android:maxLines="1"
+                android:paddingBottom="15dip"
+                android:paddingLeft="2dip"
+                android:paddingRight="2dip"
+                android:paddingTop="15dip"
+                android:text="A-Z" />
+        </LinearLayout>
+        
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:scaleType="fitXY"
+            android:src="@drawable/submenu_separator_land" />
+
+        <LinearLayout
+            android:id="@+id/subMenuHolder2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:background="@drawable/top_navigation_gradient"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/subMenu2"
+                style="@style/NavigationItemTab"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:lines="1"
+                android:maxLines="1"
+                android:paddingBottom="15dip"
+                android:paddingLeft="2dip"
+                android:paddingRight="2dip"
+                android:paddingTop="15dip"
+                android:text="Fraktion" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:scaleType="fitXY"
+            android:src="@drawable/submenu_separator_land" />
+
+        <LinearLayout
+            android:id="@+id/subMenuHolder3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:background="@drawable/top_navigation_gradient"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/subMenu3"
+                style="@style/NavigationItemTab"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:lines="1"
+                android:maxLines="1"
+                android:paddingBottom="15dip"
+                android:paddingLeft="2dip"
+                android:paddingRight="2dip"
+                android:paddingTop="15dip"
+                android:text="Land" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:scaleType="fitXY"
+            android:src="@drawable/submenu_separator_land" />
+
+        <LinearLayout
+            android:id="@+id/subMenuHolder4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:background="@drawable/top_navigation_gradient"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/subMenu4"
+                style="@style/NavigationItemTab"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:lines="1"
+                android:maxLines="1"
+                android:paddingBottom="15dip"
+                android:paddingLeft="2dip"
+                android:paddingRight="2dip"
+                android:paddingTop="15dip"
+                android:text="Wahlkreis" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:scaleType="fitXY"
+            android:src="@drawable/submenu_separator_land" />
+    </LinearLayout>
+
+</LinearLayout>

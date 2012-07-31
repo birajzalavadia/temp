@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+	<ImageView
+		android:src="@drawable/top_nav_orange"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:scaleType="fitXY" />
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+		android:weightSum="1">
+
+		<LinearLayout
+		    android:id="@+id/subMenuHolder1"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:layout_weight="0.33"
+		android:background="@drawable/top_navigation_gradient">
+
+			<!-- <TextView
+			    android:id="@+id/subMenu1"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Sitzungen"
+				style="@style/NavigationItem"
+				android:paddingTop="10dip"
+				android:paddingBottom="10dip"
+				android:paddingLeft="2dip"
+				android:paddingRight="2dip"
+				android:gravity="center_horizontal"
+				android:lines="1"
+				android:maxLines="1" /> -->
+             <TextView
+                android:id="@+id/subMenu1"
+                style="@style/NavigationItemTab"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:lines="1"
+                android:maxLines="1"
+                android:paddingBottom="15dip"
+                android:paddingLeft="2dip"
+                android:paddingRight="2dip"
+                android:paddingTop="15dip"
+                android:text="Sitzungen" />
+		</LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:scaleType="fitXY"
+            android:src="@drawable/submenu_separator_land" />
+
+		<LinearLayout
+		    android:id="@+id/subMenuHolder4"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:visibility="gone"
+			android:layout_weight="0.33"
+		android:background="@drawable/top_navigation_gradient">
+
+   			<TextView
+			    android:id="@+id/subMenu4"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Aufgabe"
+				style="@style/NavigationItem"
+				android:paddingTop="10dip"
+				android:paddingBottom="10dip"
+				android:paddingLeft="2dip"
+				android:paddingRight="2dip"
+				android:gravity="center_horizontal"
+				android:lines="1"
+				android:maxLines="1" />
+
+		</LinearLayout>
+
+       <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:scaleType="fitXY"
+            android:src="@drawable/submenu_separator_land" />
+       
+	</LinearLayout>
+
+
+</LinearLayout>

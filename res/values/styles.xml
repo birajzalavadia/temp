@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <style name="CodeFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#00FF00</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <!-- titles -->
+    <style name="BlackTitle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#111111</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="BlackTitleMDBTab" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="BlackTitleTab" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="BlackTitleItemTab" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="PopUpItem" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="PopUpItemNumber" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="WhiteTitle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="WhiteTitleSub" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="WhiteTitleTab" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="PopUpTitleTab" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    <!-- subtitles -->
+    <style name="BlackSubTitle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#222222</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="BlackSubTitleTab" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="BlackSubTitleBold" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#111111</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BlackSubTitleBoldTab" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="BlackSubTitleHeadingTab" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">20sp</item>
+        <!-- <item name="android:textStyle">bold</item> -->
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="GreySubTitleTab" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="GreySubTitleMDBTab" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="GreySubTitle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#444444</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="WhiteSubTitle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="WhiteSubTitleTab" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="WhiteSubTitleBold" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- text -->
+    <style name="BlackText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#111111</item>
+        <item name="android:textColorLink">#EF8608</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="BlackTextTab" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textColorLink">#EF8608</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="WhiteText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textColorLink">#EF8608</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="WhiteTextTab" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textColorLink">#EF8608</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- copy -->
+    <style name="BlackCopy" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#111111</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="GreyCopy" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#444444</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="GreyCopyTab" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="WhiteCopy" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+    <!-- lists -->
+    <style name="ListItemTitle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#111111</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="ListItemTitleTab" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="ListItemSubTitle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#222222</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="ListItemSubTitleTab" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="ListItemCopy" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#111111</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="GeneralTitle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="GeneralTitleTab" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="H3HeadingTab" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="NavigationItem" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="NavigationItemTab" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="BlackNavigationItem" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="BlackNavigationItemTab" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="PlenumRedner" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="PlenumRednerTab" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="MdbNavigation" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#111111</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="MdbNavigationTab" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="MdbNavigationItem" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#111111</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="GalleryTopTitle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="GalleryImageTitle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="GalleryImageDesc" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="GalleryImageDescTab" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="GalleryImageCopy" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">8sp</item>
+    </style>
+
+    <style name="GalleryImageCopyTab" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="PlenumVideoWhiteSubtitle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="PlenumVideoWhiteSubtitleTab" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="MyListView" parent="@android:style/Widget.ListView">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="WhiteSerifSubTitle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="BlackSerifSubTitle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+</resources>

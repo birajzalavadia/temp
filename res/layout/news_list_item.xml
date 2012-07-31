@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@android:color/white"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="110dip"
+		android:background="@android:color/white"
+		android:orientation="horizontal"
+		>
+
+		<LinearLayout
+			android:id="@+id/imageHolder"
+			android:layout_width="250dip"
+			android:layout_height="fill_parent"
+			android:layout_weight="1"
+			android:orientation="vertical">
+
+			<RelativeLayout
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:paddingLeft="10dip"
+				android:paddingRight="10dip"
+				android:paddingTop="10dip">
+
+				<ImageView
+					android:id="@+id/image"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:adjustViewBounds="true"
+					android:scaleType="fitStart"
+					android:src="@drawable/list_img"
+					android:layout_alignParentLeft="true"
+					/>
+
+				<ImageView
+					android:id="@+id/play_video"
+					android:layout_width="wrap_content"
+					android:layout_height="fill_parent"
+					android:layout_alignParentBottom="true"
+					android:layout_centerHorizontal="true"
+					android:scaleType="center"
+					android:src="@drawable/video_play"
+					android:visibility="invisible" />
+
+				
+			</RelativeLayout>
+			
+			
+				<TextView
+				android:id="@+id/image_copy"
+				style="@style/GreyCopy"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="top|left"
+				android:background="@android:color/white"
+				android:ellipsize="marquee"
+				android:lines="1"
+				android:maxLines="1"
+				android:paddingBottom="10dip"
+				android:paddingLeft="10dip"
+				android:paddingRight="10dip"
+				android:text="copy" />
+
+			
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@android:color/white"
+			android:orientation="vertical"
+			android:paddingLeft="5dip"
+			android:paddingTop="5dip"
+			android:layout_weight="1">
+<TextView
+                android:id="@+id/article_date"
+                style="@style/BlackSerifSubTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip"
+                android:paddingTop="2dip"
+                android:paddingBottom="0dip"
+                android:text="2011.12.09"
+                android:visibility="gone" />
+			<TextView
+				android:id="@+id/title"
+				style="@style/ListItemTitle"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="top|left"
+				android:ellipsize="marquee"
+				android:minLines="1"
+				android:maxLines="2"
+				android:paddingBottom="5dip"
+				android:paddingLeft="5dip"
+				android:paddingRight="5dip"
+				android:text="teste" />
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@android:color/white"
+				android:orientation="horizontal"
+				android:paddingLeft="5dip"
+				android:paddingRight="10dip"
+				android:paddingTop="2dip"
+				android:weightSum="1">
+
+				<TextView
+					android:id="@+id/description"
+					style="@style/ListItemSubTitle"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="top|left"
+					android:layout_weight=".1"
+					android:lines="3"
+					android:maxLines="3"
+					android:text="testeteste  teste  teste  teste  teste  teste  teste  teste  teste  teste  teste  teste  teste  teste  teste  teste  teste  teste  teste  teste  teste  teste  teste  teste  "
+					android:paddingBottom="10dip"
+					android:ellipsize="end" />
+
+				<ImageView
+					android:id="@+id/arrow"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center|right"
+					android:layout_weight=".9"
+					android:adjustViewBounds="true"
+					android:src="@drawable/link_teaser"
+					android:visibility="visible" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+
+</LinearLayout>

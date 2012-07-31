@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_backgrounda"
+    android:orientation="vertical" >
+
+    <!--  -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+      
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+          
+            android:orientation="vertical"
+            android:paddingLeft="10dip"
+            android:paddingTop="10dip" >
+
+            <TextView
+                android:id="@+id/name"
+                style="@style/PopUpItem"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|left"
+                android:ellipsize="marquee"
+                android:lines="1"
+                android:maxLines="1" />
+
+            <TextView
+                android:id="@+id/number"
+                style="@style/PopUpItemNumber"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|left"
+                android:ellipsize="marquee"
+                android:lines="1"
+                android:maxLines="1"
+                android:paddingBottom="2dip" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:adjustViewBounds="true"
+            android:background="@drawable/seperator" />
+    </LinearLayout>
+
+</LinearLayout>
